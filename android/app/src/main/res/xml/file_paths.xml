@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Path untuk external files directory -->
+    <external-files-path 
+        name="pictures" 
+        path="Pictures/" />
+    
+    <!-- Path untuk external cache directory -->
+    <external-cache-path 
+        name="cache" 
+        path="." />
+    
+    <!-- Path untuk internal cache directory -->
+    <cache-path 
+        name="internal_cache" 
+        path="." />
+    
+    <!-- Path untuk external storage root -->
+    <external-path 
+        name="external" 
+        path="." />
+</paths>

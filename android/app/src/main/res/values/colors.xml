@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_color">#006d3B</color>
+    <color name="navigation_bar_color">#006d3B</color>
+    <color name="splash_badge_text">#FFFFFF</color>
+    <color name="splash_text">#FFFFFF</color>
+    <color name="notification_color">#006d3B</color>
+</resources>

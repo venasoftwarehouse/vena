@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /app/
+Allow: /release/
+Allow: /scan/
+
+# Sitemap
+Sitemap: https://dianova.vercel.app/sitemap.xml

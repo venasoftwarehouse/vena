@@ -1,0 +1,1481 @@
+{
+  "locale": "id",
+  "localeDate": "id-ID",
+  "homepage": {
+    "hero": {
+      "badge": "Teknologi Patch Pintar",
+      "title": {
+        "line1": "Dianova",
+        "line2": "Monitor Glukosa Darah"
+      },
+      "description": "Aplikasi monitoring glukosa darah dengan teknologi patch pintar yang inovatif. Pantau kadar gula darah Anda dengan mudah dan akurat.",
+      "cta": {
+        "start": "Mulai Sekarang",
+        "install": "Install Aplikasi"
+      }
+    },
+    "features": {
+      "title": "Fitur Unggulan Dianova",
+      "cards": {
+        "monitoring": {
+          "title": "Monitoring Real-time",
+          "description": "Pantau kadar glukosa darah Anda secara real-time dengan teknologi patch pintar"
+        },
+        "analysis": {
+          "title": "Analisis Kesehatan",
+          "description": "Dapatkan analisis kesehatan yang komprehensif berdasarkan data glukosa darah"
+        },
+        "webapp": {
+          "title": "Aplikasi Website",
+          "description": "Akses dari PC, iOS, dan Android tanpa perlu instalasi"
+        },
+        "security": {
+          "title": "Keamanan Data",
+          "description": "Data kesehatan Anda aman dan terlindungi dengan enkripsi end-to-end"
+        }
+      }
+    },
+    "tabs": {
+      "labels": {
+        "monitoring": "Monitoring",
+        "analysis": "Analisis",
+        "app": "Aplikasi",
+        "security": "Keamanan"
+      },
+      "monitoring": {
+        "title": "Monitoring Glukosa Darah",
+        "description": "Pantau kadar glukosa darah Anda dengan akurasi tinggi dan hasil real-time",
+        "items": {
+          "accurate": {
+            "title": "Pembacaan Akurat",
+            "description": "Teknologi sensor canggih untuk hasil yang akurat"
+          },
+          "realtime": {
+            "title": "Real-time",
+            "description": "Hasil langsung tersedia di aplikasi"
+          },
+          "history": {
+            "title": "Riwayat Lengkap",
+            "description": "Simpan semua riwayat pembacaan"
+          },
+          "export": {
+            "title": "Export Data",
+            "description": "Export data untuk dokter atau analisis pribadi"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Analisis Kesehatan",
+        "description": "Dapatkan wawasan mendalam tentang kondisi kesehatan Anda",
+        "items": {
+          "trends": {
+            "title": "Tren Kesehatan",
+            "description": "Pantau tren glukosa darah Anda"
+          },
+          "recommendations": {
+            "title": "Rekomendasi",
+            "description": "Dapatkan saran berdasarkan data Anda"
+          },
+          "reports": {
+            "title": "Laporan Bulanan",
+            "description": "Laporan kesehatan rutin setiap bulan"
+          },
+          "integration": {
+            "title": "Integrasi Dokter",
+            "description": "Bagikan laporan dengan dokter Anda"
+          }
+        }
+      },
+      "app": {
+        "title": "Aplikasi Website Multi-Platform",
+        "description": "Nikmati Dianova di berbagai perangkat tanpa perlu instalasi",
+        "items": {
+          "universal": {
+            "title": "Akses Universal",
+            "description": "Buka dari browser di PC, iOS, dan Android"
+          },
+          "noInstall": {
+            "title": "Tanpa Instalasi",
+            "description": "Gunakan langsung tanpa perlu download atau install"
+          },
+          "autoUpdate": {
+            "title": "Update Otomatis",
+            "description": "Selalu dapatkan versi terbaru tanpa perlu update manual"
+          },
+          "pwa": {
+            "title": "PWA Support",
+            "description": "Install sebagai aplikasi jika diinginkan"
+          }
+        }
+      },
+      "security": {
+        "title": "Keamanan Data",
+        "description": "Data kesehatan Anda aman dan terlindungi",
+        "items": {
+          "encryption": {
+            "title": "Enkripsi End-to-End",
+            "description": "Data Anda terenkripsi dengan standar tertinggi"
+          },
+          "privacy": {
+            "title": "Privasi Terjamin",
+            "description": "Data tidak dibagikan kepada pihak ketiga"
+          },
+          "firebase": {
+            "title": "Firebase Backend",
+            "description": "Keamanan ekstra dengan infrastruktur Firebase"
+          },
+          "backup": {
+            "title": "Backup Aman",
+            "description": "Backup data yang aman dan terenkripsi"
+          }
+        }
+      }
+    },
+    "pwa": {
+      "badge": "New",
+      "title": "Install sebagai Aplikasi",
+      "description": "Nikmati pengalaman menggunakan Dianova sebagai aplikasi di perangkat Anda. Dapatkan akses cepat, notifikasi real-time, dan kemampuan untuk menggunakan aplikasi bahkan tanpa koneksi internet.",
+      "features": {
+        "quickAccess": {
+          "title": "Akses Cepat",
+          "description": "Buka aplikasi langsung dari layar utama"
+        },
+        "notifications": {
+          "title": "Fitur Notifikasi",
+          "description": "Dapatkan notifikasi penting langsung di perangkat Anda"
+        },
+        "autoUpdate": {
+          "title": "Update Otomatis",
+          "description": "Selalu dapatkan versi terbaru tanpa perlu download"
+        }
+      },
+      "cta": "Pelajari Cara Install",
+      "appName": "Dianova",
+      "appTagline": "Glukosa Monitor"
+    },
+    "cta": {
+      "title": "Mulai Monitoring Kesehatan Anda Hari Ini",
+      "description": "Bergabunglah dengan ribuan pengguna yang telah mempercayai Dianova untuk monitoring glukosa darah mereka.",
+      "buttons": {
+        "start": "Mulai Sekarang",
+        "download": "Download APK"
+      }
+    }
+  },
+  "appHome": {
+    "welcome": {
+      "greeting": "Selamat datang",
+      "subtitle": "Pantau kesehatan glukosa Anda dengan mudah menggunakan Dianova"
+    },
+    "quickActions": {
+      "scan": {
+        "title": "Scan Patch",
+        "description": "Scan patch untuk cek glukosa"
+      },
+      "aiAssistant": {
+        "title": "AI Assistant",
+        "description": "Konsultasi dengan AI"
+      },
+      "history": {
+        "title": "Riwayat",
+        "description": "Lihat riwayat scan"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "Beri masukan Anda"
+      }
+    },
+    "aiHighlight": {
+      "title": "AI Assistant Dianova",
+      "description": "Dapatkan saran kesehatan personal dan jawaban atas pertanyaan Anda tentang diabetes dan manajemen glukosa",
+      "features": {
+        "historyBased": "Saran berdasarkan riwayat scan Anda",
+        "dietTips": "Tips diet dan gaya hidup sehat",
+        "diabetesInfo": "Informasi tentang diabetes dan pencegahan"
+      },
+      "cta": "Mulai Chat dengan AI"
+    },
+    "healthStatus": {
+      "title": "Status Kesehatan",
+      "lastScan": "Pemeriksaan Terakhir",
+      "glucoseStatus": "Status Glukosa",
+      "weeklyTrend": "Trend Mingguan",
+      "noData": "Belum ada data",
+      "badges": {
+        "normal": "Normal",
+        "warning": "Peringatan",
+        "high": "Tinggi"
+      },
+      "trends": {
+        "up": "Meningkat",
+        "down": "Menurun",
+        "stable": "Stabil",
+        "unavailable": "Belum tersedia"
+      }
+    },
+    "recentActivity": {
+      "title": "Aktivitas Terbaru",
+      "noData": "Belum ada riwayat pemeriksaan",
+      "startFirstScan": "Mulai Scan Pertama",
+      "viewAll": "Lihat Semua Riwayat"
+    },
+    "reminder": {
+      "title": "Reminder Hari Ini",
+      "loadError": "Tidak dapat memuat reminder hari ini."
+    },
+    "admin": {
+      "description": "Manajemen User"
+    }
+  },
+  "login": {
+    "title": "Masuk ke Dianova",
+    "subtitle": "Masuk untuk melanjutkan monitoring glukosa Anda",
+    "androidWebViewNotice": "Mode Android WebView terdeteksi. Google Sign-In akan menggunakan Credential Manager.",
+    "form": {
+      "email": {
+        "label": "Email",
+        "placeholder": "nama@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Masukkan password"
+      },
+      "submit": "Masuk",
+      "submitting": "Memproses..."
+    },
+    "divider": "Atau",
+    "social": {
+      "google": "Masuk dengan Google",
+      "anonymous": "Masuk sebagai Tamu"
+    },
+    "footer": {
+      "noAccount": "Belum punya akun?",
+      "register": "Daftar sekarang"
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "emptyFields": "Mohon isi email dan password"
+      },
+      "success": {
+        "title": "Berhasil masuk",
+        "welcome": "Selamat datang kembali!",
+        "welcomeNew": "Selamat datang!"
+      },
+      "failed": {
+        "title": "Gagal masuk",
+        "titleGoogle": "Gagal masuk dengan Google",
+        "titleAnonymous": "Gagal masuk sebagai tamu",
+        "defaultMessage": "Terjadi kesalahan saat masuk"
+      },
+      "anonymous": {
+        "title": "Masuk sebagai tamu",
+        "description": "Anda dapat mulai menggunakan aplikasi"
+      }
+    }
+  },
+  "chatbot": {
+    "header": {
+      "title": "AI Assistant Dianova",
+      "subtitle": "Asisten kesehatan pribadi Anda",
+      "status": "Online"
+    },
+    "welcome": {
+      "greeting": "Halo! Saya adalah asisten kesehatan AI Dianova. Saya siap membantu Anda dengan:",
+      "features": {
+        "diabetes": "Informasi tentang diabetes dan manajemen glukosa",
+        "lifestyle": "Saran gaya hidup sehat berdasarkan hasil scan Anda",
+        "diet": "Tips diet dan olahraga",
+        "usage": "Cara menggunakan aplikasi Dianova",
+        "motivation": "Motivasi untuk menjaga kesehatan"
+      },
+      "question": "Apa yang ingin Anda tanyakan hari ini?"
+    },
+    "history": {
+      "title": "Riwayat Chat",
+      "newChat": "Chat Baru",
+      "loading": "Memuat...",
+      "empty": {
+        "title": "Belum ada riwayat chat",
+        "subtitle": "Mulai chat untuk melihat riwayat di sini"
+      },
+      "delete": "Hapus",
+      "deleteAll": "Hapus Semua Riwayat",
+      "deleteDialog": {
+        "title": "Hapus Riwayat Chat",
+        "description": "Apakah Anda yakin ingin menghapus riwayat chat ini? Tindakan ini tidak dapat dibatalkan.",
+        "cancel": "Batal",
+        "confirm": "Hapus",
+        "deleting": "Menghapus..."
+      },
+      "deleteAllDialog": {
+        "title": "Hapus Semua Riwayat",
+        "description": "Apakah Anda yakin ingin menghapus semua riwayat chat? Tindakan ini tidak dapat dibatalkan.",
+        "cancel": "Batal",
+        "confirm": "Hapus Semua",
+        "deleting": "Menghapus..."
+      }
+    },
+    "loading": {
+      "fetching": "Mengambil Data User...",
+      "typing": "AI sedang mengetik..."
+    },
+    "quickQuestions": {
+      "title": "Pertanyaan Populer",
+      "questions": [
+        "Bagaimana cara menurunkan gula darah secara alami?",
+        "Apa saja makanan yang baik untuk diabetes?",
+        "Berapa kali sehari sebaiknya cek gula darah?",
+        "Tips olahraga untuk penderita diabetes",
+        "Cara menggunakan patch Dianova dengan benar"
+      ]
+    },
+    "disclaimer": {
+      "message": "AI Assistant ini memberikan informasi umum. Untuk masalah medis serius, konsultasikan dengan dokter."
+    },
+    "input": {
+      "placeholder": "Tanyakan tentang kesehatan, diabetes, atau cara menggunakan Dianova..."
+    },
+    "error": {
+      "message": "Maaf, terjadi kesalahan saat memproses pesan Anda. Silakan coba lagi dalam beberapa saat."
+    },
+    "toast": {
+      "sendError": {
+        "title": "Error",
+        "description": "Gagal mengirim pesan. Silakan coba lagi."
+      },
+      "loadError": {
+        "title": "Error",
+        "description": "Gagal memuat sesi chat. Silakan coba lagi."
+      },
+      "deleteSuccess": {
+        "title": "Berhasil",
+        "description": "Riwayat chat berhasil dihapus."
+      },
+      "deleteError": {
+        "title": "Error",
+        "description": "Gagal menghapus riwayat chat. Silakan coba lagi."
+      },
+      "deleteAllSuccess": {
+        "title": "Berhasil",
+        "description": "Semua riwayat chat berhasil dihapus."
+      },
+      "deleteAllError": {
+        "title": "Error",
+        "description": "Gagal menghapus semua riwayat chat. Silakan coba lagi."
+      }
+    }
+  },
+  "feedback": {
+    "badge": "Feedback",
+    "title": "Bagikan Pendapat Anda",
+    "subtitle": "Kami sangat menghargai masukan Anda untuk terus meningkatkan pengalaman menggunakan Dianova",
+    "form": {
+      "title": "Kirim Feedback",
+      "description": "Isi formulir di bawah ini untuk memberikan masukan tentang aplikasi Dianova",
+      "fields": {
+        "name": {
+          "label": "Nama",
+          "placeholder": "Nama Anda",
+          "autoFilled": "Nama diisi otomatis dari profil Anda"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "email@example.com",
+          "autoFilled": "Email diisi otomatis dari profil Anda"
+        },
+        "category": {
+          "label": "Kategori",
+          "placeholder": "Pilih kategori",
+          "options": {
+            "accuracy": "Akurasi Scan",
+            "usability": "Kemudahan Penggunaan",
+            "performance": "Performa Aplikasi",
+            "features": "Fitur Aplikasi",
+            "bug": "Laporan Bug",
+            "suggestion": "Saran Perbaikan",
+            "other": "Lainnya"
+          }
+        },
+        "rating": {
+          "label": "Penilaian"
+        },
+        "message": {
+          "label": "Pesan",
+          "placeholder": "Ceritakan pengalaman Anda menggunakan Dianova..."
+        }
+      },
+      "submit": "Kirim Feedback",
+      "submitting": "Mengirim..."
+    },
+    "history": {
+      "title": "Riwayat Feedback Anda",
+      "description": "Feedback yang telah Anda kirim sebelumnya",
+      "loading": "Memuat riwayat feedback...",
+      "empty": {
+        "title": "Belum Ada Feedback",
+        "description": "Anda belum mengirim feedback sebelumnya. Bagikan pengalaman Anda dengan kami!"
+      },
+      "deleteConfirm": "Apakah Anda yakin ingin menghapus feedback ini?"
+    },
+    "success": {
+      "title": "Feedback Terkirim!",
+      "message": "Terima kasih atas feedback Anda. Feedback Anda telah dipublikasikan.",
+      "sendAgain": "Kirim Feedback Lagi"
+    },
+    "importance": {
+      "title": "Mengapa Feedback Anda Penting?",
+      "description": "Setiap masukan yang Anda berikan membantu kami untuk:",
+      "points": [
+        "Meningkatkan kualitas dan akurasi deteksi glukosa",
+        "Memperbaiki bug dan masalah teknis",
+        "Mengembangkan fitur baru yang berguna",
+        "Meningkatkan pengalaman pengguna secara keseluruhan"
+      ]
+    },
+    "nextSteps": {
+      "title": "Apa yang Terjadi Selanjutnya?",
+      "description": "Setelah Anda mengirim feedback, tim kami akan:",
+      "steps": [
+        "Menganalisis masukan Anda dengan cermat",
+        "Membahasnya dalam tim pengembangan",
+        "Menerapkan perubahan yang diperlukan",
+        "Merilis pembaruan dalam versi berikutnya"
+      ]
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "incomplete": "Mohon lengkapi semua field yang diperlukan.",
+        "notLoggedIn": "Anda harus login untuk mengirim feedback.",
+        "submitFailed": "Gagal mengirim feedback. Silakan coba lagi.",
+        "loadFailed": "Gagal memuat riwayat feedback Anda.",
+        "deleteFailed": "Gagal menghapus feedback. Silakan coba lagi."
+      },
+      "success": {
+        "title": "Berhasil",
+        "submitted": "Terima kasih atas feedback Anda! Feedback Anda telah dipublikasikan.",
+        "deleted": "Feedback telah berhasil dihapus."
+      }
+    }
+  },
+  "history": {
+    "title": "Riwayat Scan",
+    "description": "Lihat semua hasil pemeriksaan glukosa Anda",
+    "buttons": {
+      "newScan": "Scan Baru",
+      "refresh": "Refresh",
+      "detail": "Detail",
+      "previous": "Sebelumnya",
+      "next": "Selanjutnya",
+      "back": "Kembali ke Riwayat",
+      "backToHistory": "Kembali ke Riwayat"
+    },
+    "empty": {
+      "title": "Belum Ada Riwayat Scan",
+      "description": "Anda belum melakukan scan glukosa. Mulai scan pertama Anda untuk memantau kesehatan glukosa.",
+      "action": "Mulai Scan Pertama"
+    },
+    "status": {
+      "normal": "Normal",
+      "warning": "Peringatan",
+      "high": "Tinggi",
+      "unknown": "Tidak Diketahui"
+    },
+    "colorLabels": {
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High"
+    },
+    "info": {
+      "accuracy": "Akurasi",
+      "showing": "Menampilkan",
+      "of": "dari",
+      "results": "hasil scan",
+      "page": "Halaman"
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "loadFailed": "Gagal memuat riwayat scan. Silakan coba lagi.",
+        "deleteFailed": "Gagal menghapus riwayat scan. Silakan coba lagi.",
+        "notFound": "Riwayat tidak ditemukan.",
+        "loadDetailFailed": "Riwayat gagal memuat detail."
+      },
+      "success": {
+        "title": "Berhasil",
+        "deleteSuccess": "Riwayat scan berhasil dihapus."
+      }
+    },
+    "detail": {
+      "title": "Detail Scan",
+      "description": "Lihat hasil pemeriksaan glukosa secara lengkap",
+      "scanResult": "Hasil Scan",
+      "resultAnalysis": "Hasil Analisis:",
+      "colorDistribution": "Distribusi Warna:",
+      "aiTipsTitle": "Tips dari AI Assistant Dianova",
+      "aiNotesTitle": "Catatan dari AI",
+      "notFound": {
+        "title": "Riwayat Tidak Ditemukan",
+        "description": "Riwayat scan yang Anda cari tidak ditemukan atau telah dihapus."
+      }
+    }
+  },
+  "scan": {
+    "title": "Scan Patch Glukosa",
+    "description": "Scan patch untuk mengetahui kadar glukosa darah Anda",
+    "lastResult": {
+      "title": "Hasil Scan Terakhir",
+      "accuracy": "Akurasi",
+      "colorDistribution": "Distribusi Warna"
+    },
+    "aiSection": {
+      "tipsTitle": "Tips dari AI Assistant Dianova",
+      "notesTitle": "Catatan dari AI",
+      "loadingTips": "Menghasilkan tips personal...",
+      "loadingNotes": "Menganalisis hasil scan..."
+    },
+    "status": {
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High"
+    },
+    "methods": {
+      "title": "Pilih Metode Scan",
+      "description": "Pilih salah satu metode di bawah untuk memindai patch glukosa Anda",
+      "camera": {
+        "title": "Scan dengan Kamera",
+        "description": "Gunakan kamera perangkat untuk memindai patch secara real-time",
+        "button": "Scan dengan Kamera"
+      },
+      "upload": {
+        "title": "Upload Gambar",
+        "description": "Upload gambar patch yang sudah Anda ambil sebelumnya",
+        "button": "Upload Gambar"
+      },
+      "saving": "Menyimpan..."
+    },
+    "instructions": {
+      "title": "Cara Penggunaan",
+      "steps": {
+        "1": "Tempelkan patch di kulit yang bersih dan kering",
+        "2": "Tunggu 2-3 menit agar patch bereaksi dengan keringat",
+        "3": "Pilih metode scan: gunakan kamera atau upload gambar patch",
+        "4": "Untuk scan dengan kamera: posisikan patch dalam kotak panduan dan tekan tombol kamera",
+        "5": "Untuk upload gambar: pilih gambar patch yang jelas dan tekan \"Analisis Gambar\""
+      }
+    },
+    "tips": {
+      "title": "Tips untuk Hasil Terbaik",
+      "items": {
+        "1": "Pastikan patch menempel dengan baik di kulit",
+        "2": "Gunakan pencahayaan yang cukup terang",
+        "3": "Hindari bayangan pada patch saat scanning",
+        "4": "Posisikan kamera tegak lurus dengan patch",
+        "5": "Tunggu beberapa menit setelah menempel patch",
+        "6": "Untuk upload gambar, pastikan patch terlihat jelas dan fokus"
+      }
+    },
+    "toast": {
+      "success": {
+        "saveTitle": "Scan Berhasil Disimpan",
+        "saveDescription": "Hasil scan Anda telah disimpan ke riwayat.",
+        "reminderTitle": "Pengingat Diaktifkan",
+        "reminderDescription": "Pengingat untuk scan berikutnya telah diatur dalam 2 jam."
+      },
+      "error": {
+        "saveTitle": "Gagal Menyimpan",
+        "saveDescription": "Gagal menyimpan hasil scan. Silakan coba lagi.",
+        "processTitle": "Error",
+        "processDescription": "Terjadi kesalahan saat memproses scan."
+      }
+    },
+    "staticNotes": {
+      "normal": "Kadar glukosa Anda berada dalam rentang normal. Distribusi warna normal yang mendominasi menunjukkan bahwa kadar glukosa darah Anda terkontrol dengan baik. Pertahankan pola makan dan gaya hidup sehat saat ini.",
+      "warning": "Hasil scan menunjukkan kadar glukosa sedikit tinggi dengan distribusi warna warning yang signifikan. Ini bisa menjadi indikator awal bahwa Anda perlu memperhatikan pola makan dan aktivitas fisik Anda. Monitor kadar glukosa secara rutin untuk melihat perkembangannya.",
+      "high": "Hasil scan menunjukkan kadar glukosa tinggi dengan distribusi warna high yang mendominasi. Ini adalah sinyal penting untuk segera berkonsultasi dengan dokter. Faktor seperti makanan yang dikonsumsi, stres, atau kurangnya aktivitas fisik mungkin menjadi penyebabnya.",
+      "unknown": "Tidak dapat menentukan kadar glukosa dengan pasti. Pastikan patch menempel dengan baik, pencahayaan cukup, dan lakukan scan ulang untuk hasil yang lebih akurat."
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "Kelola preferensi dan pengaturan akun Anda",
+    "account": {
+      "title": "Informasi Akun",
+      "defaultName": "Pengguna Dianova",
+      "emailNotAvailable": "Email tidak tersedia",
+      "anonymousAccount": "Akun Anonim",
+      "anonymousWarning": "Anda menggunakan akun anonim. Untuk keamanan data yang lebih baik, pertimbangkan untuk membuat akun dengan email dan password."
+    },
+    "app": {
+      "title": "Pengaturan Aplikasi",
+      "notifications": {
+        "label": "Notifikasi",
+        "description": "Terima notifikasi untuk pengingat scan"
+      },
+      "autoSave": {
+        "label": "Simpan Otomatis",
+        "description": "Simpan hasil scan secara otomatis"
+      },
+      "darkMode": {
+        "label": "Mode Gelap",
+        "description": "Gunakan tema gelap untuk aplikasi"
+      },
+      "highQuality": {
+        "label": "Kualitas Gambar Tinggi",
+        "description": "Simpan gambar dengan kualitas tinggi"
+      }
+    },
+    "dataPrivacy": {
+      "title": "Data & Privasi",
+      "privacyPolicy": "Kebijakan Privasi",
+      "tos": "Syarat & Ketentuan",
+      "userGuide": "Panduan Penggunaan"
+    },
+    "accountActions": {
+      "title": "Aksi Akun",
+      "logout": "Keluar dari Akun",
+      "deleteAccount": "Hapus Akun"
+    },
+    "deleteDialog": {
+      "title": "Hapus Akun",
+      "description": "Apakah Anda yakin ingin menghapus akun? Semua data termasuk riwayat scan akan dihapus permanen. Tindakan ini tidak dapat dibatalkan.",
+      "cancel": "Batal",
+      "confirm": "Hapus Akun",
+      "confirming": "Menghapus..."
+    },
+    "toast": {
+      "logoutSuccess": {
+        "title": "Berhasil",
+        "description": "Anda telah keluar dari akun."
+      },
+      "logoutError": {
+        "title": "Error",
+        "description": "Gagal keluar dari akun. Silakan coba lagi."
+      },
+      "deleteSuccess": {
+        "title": "Akun Berhasil Dihapus",
+        "description": "Akun dan data Anda telah dihapus permanen."
+      },
+      "deleteError": {
+        "title": "Error",
+        "description": "Gagal menghapus akun. Silakan hubungi support.",
+        "requiresRecentLogin": "Silakan login ulang sebelum menghapus akun."
+      },
+      "userNotFound": "User tidak ditemukan"
+    },
+    "appInfo": {
+      "version": "Dianova",
+      "copyright": "© 2025 Dianova. Semua hak dilindungi undang-undang."
+    }
+  },
+  "privacyPolicy": {
+    "backButton": "Kembali",
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: 01 Oktober 2025",
+    "cardTitle": "Kebijakan Privasi Dianova",
+    "sections": {
+      "informationCollection": {
+        "title": "1. Informasi yang Kami Kumpulkan",
+        "description": "Kami mengumpulkan informasi berikut untuk memberikan layanan terbaik:",
+        "items": [
+          "Informasi akun (email, nama, foto profil)",
+          "Data hasil scan patch glukosa",
+          "Gambar patch yang di-scan",
+          "Riwayat percakapan dengan AI Assistant",
+          "Feedback dan saran yang Anda berikan"
+        ]
+      },
+      "informationUsage": {
+        "title": "2. Bagaimana Kami Menggunakan Informasi",
+        "description": "Informasi yang dikumpulkan digunakan untuk:",
+        "items": [
+          "Menyediakan layanan monitoring glukosa",
+          "Memberikan saran kesehatan yang personal",
+          "Menyimpan riwayat pemeriksaan Anda",
+          "Meningkatkan akurasi deteksi warna patch",
+          "Memberikan dukungan teknis"
+        ]
+      },
+      "dataSecurity": {
+        "title": "3. Keamanan Data",
+        "description": "Kami berkomitmen melindungi data Anda dengan:",
+        "items": [
+          "Enkripsi data saat transmisi dan penyimpanan",
+          "Autentikasi Firebase yang aman",
+          "Penyimpanan gambar di Cloudflare R2 yang terpercaya",
+          "Akses data terbatas hanya untuk fungsi aplikasi",
+          "Monitoring keamanan secara berkala"
+        ]
+      },
+      "informationSharing": {
+        "title": "4. Berbagi Informasi",
+        "description": "Kami TIDAK akan membagikan data pribadi Anda kepada pihak ketiga, kecuali:",
+        "items": [
+          "Dengan persetujuan eksplisit dari Anda",
+          "Untuk mematuhi kewajiban hukum",
+          "Dalam bentuk data anonim untuk penelitian kesehatan"
+        ]
+      },
+      "userRights": {
+        "title": "5. Hak Anda",
+        "description": "Anda memiliki hak untuk:",
+        "items": [
+          "Mengakses data pribadi yang kami simpan",
+          "Memperbarui atau mengoreksi informasi",
+          "Menghapus akun dan semua data terkait",
+          "Mengunduh salinan data Anda",
+          "Menolak penggunaan data untuk tujuan tertentu"
+        ]
+      },
+      "dataStorage": {
+        "title": "6. Penyimpanan Data",
+        "description": "Data Anda akan disimpan selama akun aktif. Setelah penghapusan akun, data akan dihapus dalam 30 hari, kecuali diwajibkan oleh hukum untuk disimpan lebih lama."
+      },
+      "policyChanges": {
+        "title": "7. Perubahan Kebijakan",
+        "description": "Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Perubahan signifikan akan diberitahukan melalui aplikasi atau email."
+      },
+      "contact": {
+        "title": "8. Kontak",
+        "description": "Jika ada pertanyaan tentang kebijakan privasi ini, hubungi kami di:",
+        "items": [
+          "Email: dianova@gmail.com",
+          "Alamat: Asrama SMA Negeri 1 Matauli Pandan, Jl. KH. Dewantara, Sibuluan Indah, Kec. Pandan, Kabupaten Tapanuli Tengah, Sumatera Utara 22538"
+        ]
+      }
+    }
+  },
+  "procedure": {
+    "backButton": "Kembali",
+    "title": "Panduan Penggunaan",
+    "subtitle": "Cara menggunakan Dianova dengan benar",
+    "overview": {
+      "title": "Tentang Dianova",
+      "description": "Dianova adalah aplikasi monitoring glukosa darah menggunakan teknologi patch pintar. Patch akan berubah warna berdasarkan kadar glukosa dalam keringat, dan aplikasi akan menganalisis warna tersebut untuk memberikan estimasi kadar glukosa.",
+      "colorIndicators": {
+        "normal": "Hijau = Normal",
+        "warning": "Kuning = Peringatan",
+        "high": "Merah = Tinggi"
+      }
+    },
+    "steps": {
+      "title": "Langkah-langkah Penggunaan",
+      "step1": {
+        "title": "Persiapan Patch",
+        "items": [
+          "Bersihkan area kulit yang akan ditempel patch",
+          "Pastikan kulit kering dan tidak berminyak",
+          "Hindari area yang berambut atau memiliki luka",
+          "Pilih area yang mudah diakses untuk scanning"
+        ]
+      },
+      "step2": {
+        "title": "Pemasangan Patch",
+        "items": [
+          "Lepas pelindung perekat patch dengan hati-hati",
+          "Tempel patch dengan lembut dan tekan merata",
+          "Pastikan tidak ada gelembung udara",
+          "Patch harus menempel dengan sempurna"
+        ]
+      },
+      "step3": {
+        "title": "Waktu Tunggu",
+        "items": [
+          "Tunggu 2-3 menit agar patch bereaksi dengan keringat",
+          "Jangan menyentuh atau menggerakkan patch",
+          "Pastikan area tetap kering dari air atau cairan lain",
+          "Patch akan mulai berubah warna secara bertahap"
+        ]
+      },
+      "step4": {
+        "title": "Scanning dengan Aplikasi",
+        "items": [
+          "Buka aplikasi Dianova dan pilih \"Scan Patch\"",
+          "Pastikan pencahayaan cukup terang",
+          "Posisikan patch di dalam kotak panduan",
+          "Tekan tombol kamera untuk mengambil foto"
+        ]
+      },
+      "step5": {
+        "title": "Interpretasi Hasil",
+        "items": [
+          "Lihat hasil analisis warna dan estimasi glukosa",
+          "Baca rekomendasi yang diberikan aplikasi",
+          "Simpan hasil untuk riwayat pemeriksaan",
+          "Konsultasikan dengan dokter jika diperlukan"
+        ]
+      }
+    },
+    "tips": {
+      "title": "Tips untuk Hasil Terbaik",
+      "lighting": {
+        "title": "Pencahayaan Optimal",
+        "description": "Gunakan cahaya alami atau lampu putih yang terang. Hindari cahaya kuning atau bayangan."
+      },
+      "cameraPosition": {
+        "title": "Posisi Kamera",
+        "description": "Pegang ponsel tegak lurus dengan patch, jarak 10-15 cm untuk hasil terbaik."
+      },
+      "avoidInterference": {
+        "title": "Hindari Gangguan",
+        "description": "Jangan scan patch yang basah, kotor, atau sudah lama ditempel (lebih dari 1 jam)."
+      }
+    },
+    "warning": {
+      "title": "Peringatan Penting",
+      "items": [
+        "Dianova bukan alat medis tersertifikasi",
+        "Hasil hanya untuk referensi, bukan diagnosis medis",
+        "Selalu konsultasikan dengan dokter untuk keputusan medis",
+        "Dalam keadaan darurat, segera hubungi layanan medis"
+      ]
+    },
+    "support": {
+      "title": "Butuh Bantuan?",
+      "description": "Jika mengalami kesulitan atau memiliki pertanyaan, jangan ragu untuk menghubungi kami.",
+      "sendFeedback": "Kirim Feedback",
+      "askAssistant": "Tanya AI Assistant"
+    }
+  },
+  "tos": {
+    "backButton": "Kembali",
+    "title": "Syarat & Ketentuan",
+    "lastUpdated": "Terakhir diperbarui: 01 Oktober 2025",
+    "cardTitle": "Syarat & Ketentuan Penggunaan Dianova",
+    "sections": {
+      "acceptance": {
+        "title": "1. Penerimaan Syarat",
+        "description": "Dengan menggunakan aplikasi Dianova, Anda menyetujui untuk terikat oleh syarat dan ketentuan ini. Jika Anda tidak setuju, mohon tidak menggunakan aplikasi ini."
+      },
+      "serviceDescription": {
+        "title": "2. Deskripsi Layanan",
+        "description": "Dianova adalah aplikasi monitoring glukosa darah yang menyediakan:",
+        "items": [
+          "Deteksi warna patch glukosa menggunakan kamera",
+          "Estimasi kadar glukosa berdasarkan analisis warna",
+          "Penyimpanan riwayat pemeriksaan",
+          "AI Assistant untuk saran kesehatan umum",
+          "Sistem feedback dan dukungan"
+        ]
+      },
+      "medicalLimitations": {
+        "title": "3. Batasan Medis",
+        "disclaimer": "PENTING - DISCLAIMER MEDIS:",
+        "items": [
+          "Dianova BUKAN alat medis yang tersertifikasi",
+          "Hasil scan hanya untuk referensi dan TIDAK menggantikan pemeriksaan medis profesional",
+          "Selalu konsultasikan dengan dokter untuk diagnosis dan pengobatan",
+          "Jangan mengandalkan aplikasi ini untuk keputusan medis penting",
+          "Dalam keadaan darurat, segera hubungi layanan medis"
+        ]
+      },
+      "allowedUsage": {
+        "title": "4. Penggunaan yang Diizinkan",
+        "description": "Anda diizinkan untuk:",
+        "items": [
+          "Menggunakan aplikasi untuk monitoring pribadi",
+          "Menyimpan dan mengakses data scan Anda",
+          "Berbagi hasil dengan profesional medis",
+          "Memberikan feedback untuk perbaikan aplikasi"
+        ]
+      },
+      "prohibitedUsage": {
+        "title": "5. Penggunaan yang Dilarang",
+        "description": "Anda TIDAK diizinkan untuk:",
+        "items": [
+          "Menggunakan aplikasi untuk tujuan komersial tanpa izin",
+          "Memodifikasi, mendistribusikan, atau membuat karya turunan",
+          "Menggunakan aplikasi untuk menyebarkan informasi medis yang salah",
+          "Mengganggu atau merusak fungsi aplikasi",
+          "Mengakses data pengguna lain tanpa izin"
+        ]
+      },
+      "accuracyReliability": {
+        "title": "6. Akurasi dan Keandalan",
+        "description": "Meskipun kami berusaha memberikan hasil yang akurat, kami tidak menjamin 100% akurasi deteksi warna atau estimasi glukosa. Faktor-faktor seperti pencahayaan, kualitas kamera, dan kondisi patch dapat mempengaruhi hasil."
+      },
+      "userResponsibility": {
+        "title": "7. Tanggung Jawab Pengguna",
+        "description": "Pengguna bertanggung jawab untuk:",
+        "items": [
+          "Menggunakan patch sesuai petunjuk",
+          "Memastikan kondisi scan yang optimal",
+          "Menjaga kerahasiaan akun dan password",
+          "Melaporkan masalah atau bug yang ditemukan",
+          "Menggunakan informasi dengan bijak"
+        ]
+      },
+      "liabilityLimitation": {
+        "title": "8. Pembatasan Tanggung Jawab",
+        "description": "Dianova dan pengembangnya tidak bertanggung jawab atas kerugian yang timbul dari penggunaan aplikasi, termasuk namun tidak terbatas pada keputusan medis berdasarkan hasil aplikasi."
+      },
+      "serviceChanges": {
+        "title": "9. Perubahan Layanan",
+        "description": "Kami berhak mengubah, menghentikan, atau membatasi layanan kapan saja dengan atau tanpa pemberitahuan sebelumnya."
+      },
+      "contact": {
+        "title": "10. Kontak",
+        "description": "Untuk pertanyaan tentang syarat dan ketentuan ini:",
+        "items": [
+          "Email: dianova@gmail.com",
+          "Support: dianova@gmail.com"
+        ]
+      }
+    }
+  },
+  "register": {
+    "title": "Daftar ke Dianova",
+    "subtitle": "Buat akun untuk mulai monitoring glukosa Anda",
+    "webViewNotice": "Mode Android WebView terdeteksi. Google Sign-In akan menggunakan Chrome Custom Tabs.",
+    "form": {
+      "email": {
+        "label": "Email",
+        "placeholder": "nama@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Minimal 6 karakter"
+      },
+      "confirmPassword": {
+        "label": "Konfirmasi Password",
+        "placeholder": "Ulangi password"
+      },
+      "submitButton": "Daftar",
+      "submitting": "Memproses..."
+    },
+    "divider": "Atau",
+    "googleButton": "Daftar dengan Google",
+    "guestButton": "Masuk sebagai Tamu",
+    "footer": {
+      "haveAccount": "Sudah punya akun?",
+      "loginLink": "Masuk sekarang"
+    },
+    "validation": {
+      "allFieldsRequired": "Mohon isi semua field",
+      "passwordMinLength": "Password minimal 6 karakter",
+      "passwordInvalid": "Password tidak valid",
+      "passwordMismatch": "Password tidak cocok",
+      "passwordMismatchDescription": "Konfirmasi password harus sama dengan password"
+    },
+    "toast": {
+      "registerSuccess": {
+        "title": "Berhasil mendaftar",
+        "description": "Akun Anda telah dibuat. Selamat datang di Dianova!",
+        "descriptionShort": "Selamat datang di Dianova!"
+      },
+      "registerError": {
+        "title": "Gagal mendaftar",
+        "defaultMessage": "Terjadi kesalahan saat mendaftar",
+        "emailInUse": "Email sudah terdaftar. Silakan gunakan email lain atau masuk ke akun Anda.",
+        "invalidEmail": "Format email tidak valid",
+        "weakPassword": "Password terlalu lemah. Gunakan minimal 6 karakter."
+      },
+      "googleRegisterError": {
+        "title": "Gagal mendaftar dengan Google",
+        "defaultMessage": "Terjadi kesalahan saat mendaftar"
+      },
+      "guestLogin": {
+        "title": "Masuk sebagai tamu",
+        "description": "Anda dapat mulai menggunakan aplikasi"
+      },
+      "guestLoginError": {
+        "title": "Gagal masuk sebagai tamu",
+        "defaultMessage": "Terjadi kesalahan saat masuk"
+      }
+    }
+  },
+  "release": {
+    "badge": "Teknologi Patch Pintar",
+    "title": "Aplikasi Android Dianova",
+    "subtitle": "Aplikasi Android resmi untuk monitoring glukosa darah dengan teknologi patch pintar yang inovatif.",
+    "version": "Versi 1.0.0",
+    "download": {
+      "title": "Unduh Aplikasi Dianova",
+      "description": "Dapatkan aplikasi Dianova untuk perangkat Android Anda sekarang juga dan nikmati monitoring glukosa yang mudah dan akurat.",
+      "downloadButton": "Unduh APK (v1.0.0)",
+      "learnMoreButton": "Pelajari Selengkapnya",
+      "fileInfo": "Ukuran file: ~9 MB | Kompatibel dengan Android 8.0+ (Oreo)"
+    },
+    "pwa": {
+      "title": "Bukan Pengguna Android? Coba install sebagai Aplikasi Website",
+      "description": "Install aplikasi Dianova sebagai Progressive Web App (PWA) di perangkat Anda.",
+      "ios": {
+        "title": "iPhone & iPad (Safari)",
+        "description": "Install aplikasi Dianova di perangkat iOS menggunakan Safari",
+        "step1": {
+          "title": "Buka Menu Share",
+          "description": "Tekan ikon Share di bagian bawah Safari"
+        },
+        "step2": {
+          "title": "Pilih \"Add to Home Screen\"",
+          "description": "Gulir ke bawah dan pilih opsi ini"
+        },
+        "step3": {
+          "title": "Konfirmasi Install",
+          "description": "Tekan \"Add\" di pojok kanan atas"
+        },
+        "openButton": "Buka Aplikasi"
+      },
+      "android": {
+        "title": "Android & PC (Chrome-Based)",
+        "description": "Install aplikasi Dianova di perangkat Android & PC menggunakan Browser berbasis Chrome",
+        "step1": {
+          "title": "Buka Aplikasi di Chrome",
+          "description": "Kunjungi halaman aplikasi Dianova"
+        },
+        "step2": {
+          "title": "Tunggu Prompt Install",
+          "description": "Chrome akan menampilkan prompt install otomatis"
+        },
+        "step3": {
+          "title": "Tap \"Install\"",
+          "description": "Konfirmasi instalasi dengan menekan tombol Install"
+        },
+        "openButton": "Buka Aplikasi"
+      },
+      "benefits": {
+        "title": "Keuntungan Install sebagai PWA",
+        "quickAccess": {
+          "title": "Akses Cepat",
+          "description": "Buka aplikasi langsung dari layar utama tanpa membuka browser"
+        },
+        "fullScreen": {
+          "title": "Tampilan Layar Penuh",
+          "description": "Nikmati pengalaman tanpa gangguan browser"
+        },
+        "offline": {
+          "title": "Bekerja Offline",
+          "description": "Akses fitur tertentu bahkan tanpa koneksi internet"
+        },
+        "autoUpdate": {
+          "title": "Update Otomatis",
+          "description": "Selalu dapatkan versi terbaru tanpa perlu download dari app store"
+        }
+      }
+    },
+    "features": {
+      "main": {
+        "title": "Fitur Utama",
+        "description": "Aplikasi Dianova hadir dengan berbagai fitur unggulan untuk monitoring glukosa yang efektif.",
+        "items": [
+          "Scan instan untuk deteksi glukosa melalui patch",
+          "Deteksi warna patch dengan presisi tinggi",
+          "Upload gambar patch untuk analisis mendalam",
+          "Notifikasi real-time untuk hasil pemeriksaan",
+          "Desain antarmuka yang intuitif dan mudah digunakan"
+        ]
+      },
+      "security": {
+        "title": "Keamanan & Performa",
+        "description": "Aplikasi dirancang dengan prioritas keamanan data kesehatan dan performa tinggi.",
+        "items": [
+          "Enkripsi data end-to-end untuk privasi maksimal",
+          "Autentikasi Google yang aman",
+          "Optimasi untuk berbagai perangkat Android",
+          "Update otomatis untuk fitur terbaru",
+          "Konsumsi baterai yang efisien"
+        ]
+      }
+    },
+    "smartPatch": {
+      "title": "Teknologi Patch Pintar",
+      "description": "Inovasi terbaru dari Dianova yang menghadirkan teknologi patch pintar untuk monitoring glukosa yang akurat.",
+      "paragraph1": "Teknologi Patch Pintar adalah solusi inovatif yang memungkinkan monitoring glukosa melalui keringat. Patch ini bekerja dengan mendeteksi perubahan warna yang bereaksi dengan kadar glukosa dalam keringat Anda.",
+      "paragraph2": "Dengan aplikasi Android Dianova, Anda dapat dengan mudah memindai patch menggunakan kamera ponsel, dan AI kami akan menganalisis hasilnya dengan akurasi tinggi. Fitur ini secara cerdas mengelola penggunaan data dan memori, memastikan aplikasi tetap responsif dan efisien di berbagai perangkat Android."
+    },
+    "aiAssistant": {
+      "title": "AI Assistant",
+      "description": "Dapatkan saran kesehatan personal dari AI yang memahami kondisi Anda.",
+      "paragraph1": "Aplikasi Dianova dilengkapi dengan AI Assistant yang dapat memberikan saran kesehatan berdasarkan hasil monitoring glukosa Anda. AI ini dirancang untuk memahami pola dan tren dari data glukosa Anda, memberikan insight yang berguna untuk menjaga kesehatan.",
+      "paragraph2": "AI Assistant juga dapat mengingatkan Anda untuk melakukan pemeriksaan rutin dan memberikan rekomendasi gaya hidup yang sehat berdasarkan kondisi kesehatan Anda."
+    }
+  },
+  "anonymousWarningModal": {
+    "title": "Peringatan Login Anonim",
+    "description": "Dengan menggunakan login anonim, Anda akan mengalami keterbatasan berikut:",
+    "limitations": [
+      "Data riwayat scan tidak dapat dipulihkan jika aplikasi dihapus",
+      "Tidak dapat mengakses data dari perangkat lain",
+      "Fitur sinkronisasi terbatas",
+      "Tidak dapat menggunakan fitur backup otomatis"
+    ],
+    "confirmQuestion": "Apakah Anda yakin ingin melanjutkan?",
+    "buttons": {
+      "cancel": "Batal",
+      "confirm": "Ya, Lanjutkan"
+    }
+  },
+  "appLayout": {
+    "appName": "Dianova",
+    "navigation": {
+      "home": "Beranda",
+      "scan": "Scan",
+      "history": "Riwayat",
+      "aiAssistant": "AI Assistant",
+      "feedback": "Feedback"
+    },
+    "userMenu": {
+      "loading": "Loading...",
+      "anonymousUser": "Pengguna Anonim",
+      "settings": "Pengaturan",
+      "feedback": "Feedback",
+      "logout": "Keluar"
+    }
+  },
+  "appSuggestionPopup": {
+    "title": "Buka Dianova",
+    "closeButton": "Tutup",
+    "browserOption": {
+      "title": "Lanjutkan di Browser",
+      "description": "Buka versi web Dianova",
+      "button": "Lanjutkan"
+    },
+    "appOption": {
+      "title": "Download Aplikasi Dianova",
+      "descriptionAndroid": "Pengalaman terbaik di Android",
+      "descriptionDesktop": "Pengalaman terbaik di desktop",
+      "button": "Download"
+    }
+  },
+  "cameraScanner": {
+    "errors": {
+      "cameraError": "Error Kamera",
+      "tryAgain": "Coba Lagi",
+      "close": "Tutup",
+      "cameraIssue": "Masalah Kamera",
+      "cameraNotAvailable": "Kamera tidak dapat menampilkan gambar. Pastikan kamera tidak digunakan aplikasi lain.",
+      "stillHasIssue": "Masih ada masalah dengan kamera (percobaan {{count}}/{{max}}).",
+      "refreshPage": "Refresh Halaman",
+      "retryAttempt": "Coba Lagi ({{count}}/{{max}})",
+      "captureError": "Gagal mengambil foto. Silakan coba lagi.",
+      "switchCameraError": "Gagal mengganti kamera. Silakan coba lagi."
+    },
+    "permission": {
+      "title": "Izin Kamera Diperlukan",
+      "description": "Untuk menggunakan fitur scan, Anda perlu memberikan izin akses kamera. Silakan klik tombol di bawah untuk meminta izin kamera.",
+      "grantPermission": "Berikan Izin Kamera",
+      "cancel": "Batal",
+      "hint": "Jika Anda sudah menolak izin sebelumnya, Anda perlu mengubah pengaturan izin kamera di browser Anda."
+    },
+    "results": {
+      "title": "Hasil Scan",
+      "glucoseStatus": "Status Glukosa",
+      "accurate": "{{percent}}% akurat",
+      "colorDistribution": "Distribusi Warna",
+      "normal": "Normal",
+      "warning": "Peringatan",
+      "high": "Tinggi",
+      "scanAgain": "Scan Ulang",
+      "reminderNotification": "Pengingat scan akan dikirim dalam 2 jam",
+      "lowConfidence": {
+        "title": "Warna patch tidak dapat diidentifikasi dengan jelas",
+        "description": "Pastikan pencahayaan cukup dan patch terlihat jelas. Coba scan ulang."
+      }
+    },
+    "scanning": {
+      "title": "Scan Patch Glukosa",
+      "live": "• Langsung",
+      "frontCamera": "(Depan)",
+      "backCamera": "(Belakang)",
+      "patchDetected": "Patch terdeteksi ({{percent}}%)",
+      "positionPatch": "Posisikan patch di dalam kotak",
+      "analyzing": "Menganalisis warna...",
+      "cameraNotAvailable": "Kamera tidak tersedia",
+      "patchDetectedReady": "Patch terdeteksi, tekan untuk scan",
+      "positionAndPress": "Posisikan patch di dalam kotak dan tekan tombol",
+      "loadingLibrary": "Memuat library...",
+      "waitingCamera": "Menunggu kamera siap..."
+    },
+    "warnings": {
+      "videoNotReady": "Video belum siap. Tunggu sebentar atau coba refresh kamera.",
+      "retryFailed": "Gagal mengakses kamera setelah beberapa percobaan. Silakan refresh halaman."
+    }
+  },
+  "imageUploader": {
+    "title": "Upload Gambar Patch",
+    "close": "Tutup",
+    "upload": {
+      "description": "Pilih gambar patch glukosa yang ingin dianalisis",
+      "clickToUpload": "Klik untuk upload gambar",
+      "fileTypes": "PNG, JPG, atau JPEG (Max. 5MB)",
+      "imageSelected": "Gambar patch telah dipilih, klik \"Analisis\" untuk memproses"
+    },
+    "buttons": {
+      "analyze": "Analisis Gambar",
+      "analyzing": "Menganalisis...",
+      "selectAnother": "Pilih Gambar Lain"
+    },
+    "results": {
+      "title": "Hasil Analisis",
+      "glucoseStatus": "Status Glukosa",
+      "accurate": "{{percent}}% akurat",
+      "colorDistribution": "Distribusi Warna",
+      "normal": "Normal",
+      "warning": "Peringatan",
+      "high": "Tinggi",
+      "lowConfidence": {
+        "title": "Warna patch tidak dapat diidentifikasi dengan jelas",
+        "description": "Pastikan gambar jelas dan patch terlihat dengan baik. Coba dengan gambar lain."
+      }
+    },
+    "errors": {
+      "canvasContext": "Gagal mendapatkan konteks canvas",
+      "analyzing": "Terjadi kesalahan saat menganalisis gambar"
+    }
+  },
+  "publicFooter": {
+    "appName": "Dianova",
+    "navigation": {
+      "home": "Beranda",
+      "release": "Rilis",
+      "privacyPolicy": "Kebijakan Privasi",
+      "tos": "Syarat & Ketentuan",
+      "procedure": "Prosedur Penggunaan",
+      "feedback": "Feedback"
+    },
+    "copyright": "© 2025 Dianova. Semua hak dilindungi undang-undang."
+  },
+  "publicHeader": {
+    "appName": "Dianova",
+    "navigation": {
+      "home": "Beranda",
+      "release": "Rilis",
+      "privacyPolicy": "Kebijakan Privasi",
+      "tos": "S&K",
+      "procedure": "Prosedur",
+      "feedback": "Feedback"
+    },
+    "openApp": "Buka Aplikasi",
+    "toggleMenu": "Toggle menu"
+  },
+  "pwaInstallPrompt": {
+    "title": "Install Aplikasi Dianova",
+    "close": "Tutup",
+    "install": {
+      "title": "Install Dianova di iPhone Anda",
+      "description": "Akses aplikasi dengan lebih cepat dari layar utama",
+      "howToTitle": "Cara Install:",
+      "steps": [
+        "Tekan ikon Share di bagian bawah Safari",
+        "Gulir ke bawah dan pilih \"Add to Home Screen\"",
+        "Tekan \"Add\" di pojok kanan atas"
+      ]
+    },
+    "buttons": {
+      "later": "Nanti Saja",
+      "fullGuide": "Panduan Lengkap"
+    },
+    "guide": {
+      "title": "Cara Install Aplikasi Dianova di iPhone",
+      "step1": {
+        "title": "Langkah 1: Buka Menu Share",
+        "description": "Saat membuka aplikasi Dianova di Safari, tekan ikon Share yang terletak di bagian bawah layar.",
+        "iconLabel": "Ikon Share"
+      },
+      "step2": {
+        "title": "Langkah 2: Pilih \"Add to Home Screen\"",
+        "description": "Gulir ke bawah pada menu yang muncul dan pilih opsi \"Add to Home Screen\".",
+        "optionTitle": "Add to Home Screen",
+        "optionDescription": "Tambahkan ke Layar Utama"
+      },
+      "step3": {
+        "title": "Langkah 3: Konfirmasi Install",
+        "description": "Tekan tombol \"Add\" di pojok kanan atas untuk mengkonfirmasi instalasi.",
+        "buttonLabel": "Add"
+      },
+      "complete": {
+        "title": "Selesai!",
+        "description": "Sekarang Anda dapat mengakses aplikasi Dianova langsung dari layar utama iPhone Anda tanpa perlu membuka browser terlebih dahulu."
+      }
+    }
+  },
+  "adminPage": {
+    "title": "Panel Admin",
+    "subtitle": "Kelola pengguna sistem",
+    "buttons": {
+      "addUser": "Tambah User",
+      "edit": "Edit",
+      "history": "Riwayat",
+      "delete": "Hapus",
+      "cancel": "Batal",
+      "save": "Simpan Perubahan",
+      "create": "Buat User",
+      "previous": "Sebelumnya",
+      "next": "Selanjutnya"
+    },
+    "search": {
+      "placeholder": "Cari berdasarkan nama, email, telepon, atau role...",
+      "filterPlaceholder": "Filter Role",
+      "allRoles": "Semua Role"
+    },
+    "badges": {
+      "anonymous": "Anonim",
+      "verified": "Terverifikasi",
+      "disabled": "Nonaktif"
+    },
+    "roles": {
+      "admin": "admin",
+      "doctor": "dokter",
+      "nurse": "suster",
+      "user": "pengguna"
+    },
+    "userCard": {
+      "phone": "Telepon",
+      "uid": "UID Pengguna",
+      "created": "Dibuat",
+      "lastLogin": "Terakhir Login",
+      "noName": "Tanpa Nama",
+      "anonymousUser": "Pengguna Anonim",
+      "noEmail": "Tidak ada Email",
+      "neverLoggedIn": "Belum pernah login"
+    },
+    "emptyState": {
+      "title": "Tidak ada user ditemukan",
+      "descriptionWithFilter": "Coba ubah filter atau kata kunci pencarian",
+      "descriptionNoFilter": "Klik tombol \"Tambah User\" untuk menambah user baru"
+    },
+    "pagination": {
+      "showing": "Menampilkan",
+      "of": "dari",
+      "users": "user",
+      "withRole": "dengan role",
+      "forSearch": "untuk pencarian"
+    },
+    "createDialog": {
+      "title": "Tambah User Baru",
+      "description": "Buat akun pengguna baru untuk sistem",
+      "fields": {
+        "uid": "UID User",
+        "uidAutoGenerated": "Akan dibuat otomatis",
+        "uidHelper": "UID akan dibuat otomatis oleh sistem",
+        "email": "Email",
+        "emailPlaceholder": "pengguna@contoh.com",
+        "password": "Password",
+        "passwordPlaceholder": "Minimal 6 karakter",
+        "displayName": "Nama Lengkap",
+        "displayNamePlaceholder": "Asep Kurniawan",
+        "phoneNumber": "Nomor Telepon (Opsional)",
+        "phoneNumberPlaceholder": "+628123456789",
+        "role": "Role",
+        "rolePlaceholder": "Pilih role",
+        "roleList": {
+          "user": "Pengguna",
+          "nurse": "Suster",
+          "doctor": "Dokter",
+          "admin": "Admin"
+        },
+        "photoURL": "Photo URL (Opsional)",
+        "photoURLPlaceholder": "https://contoh.com/photo.jpg"
+      },
+      "submitting": "Membuat..."
+    },
+    "editDialog": {
+      "title": "Edit User",
+      "description": "Update informasi user",
+      "fields": {
+        "uid": "UID User",
+        "uidHelper": "UID tidak dapat diubah",
+        "email": "Email",
+        "emailHelper": "Email tidak dapat diubah",
+        "displayName": "Nama Lengkap",
+        "displayNamePlaceholder": "Asep Kurniawan",
+        "phoneNumber": "Nomor Telepon",
+        "phoneNumberPlaceholder": "+628123456789",
+        "role": "Role",
+        "roleList": {
+          "user": "Pengguna",
+          "nurse": "Suster",
+          "doctor": "Dokter",
+          "admin": "Admin"
+        },
+        "rolePlaceholder": "Pilih role",
+        "photoURL": "Photo URL",
+        "photoURLPlaceholder": "https://example.com/photo.jpg"
+      },
+      "submitting": "Menyimpan..."
+    },
+    "deleteDialog": {
+      "title": "Hapus User",
+      "description": "Apakah Anda yakin ingin menghapus user",
+      "warning": "Tindakan ini tidak dapat dibatalkan.",
+      "submitting": "Menghapus..."
+    },
+    "toast": {
+      "uidCopied": "UID berhasil disalin!",
+      "uidCopyFailed": "Gagal menyalin UID",
+      "fetchUsersFailed": "Gagal mengambil data users",
+      "fetchError": "Terjadi kesalahan saat mengambil data",
+      "createSuccess": "User berhasil dibuat",
+      "createFailed": "Gagal membuat user",
+      "createError": "Terjadi kesalahan saat membuat user",
+      "createValidation": "Email, password, dan nama harus diisi",
+      "updateSuccess": "User berhasil diupdate",
+      "updateFailed": "Gagal mengupdate user",
+      "updateError": "Terjadi kesalahan saat mengupdate user",
+      "updateValidation": "Nama harus diisi",
+      "deleteSuccess": "User berhasil dihapus",
+      "deleteFailed": "Gagal menghapus user",
+      "deleteError": "Terjadi kesalahan saat menghapus user"
+    }
+  },
+  "doctorPage": {
+    "welcome": {
+      "greeting": "Selamat datang",
+      "subtitle": "Kelola dan pantau data pasien Anda"
+    },
+    "dashboard": {
+      "searchPlaceholder": "Cari berdasarkan nama, email, telepon, UID, atau status...",
+      "filterStatus": "Filter Status",
+      "allStatus": "Semua Status",
+      "anonymous": "Pengguna Anonim",
+      "verified": "Terverifikasi",
+      "unverified": "Belum Terverifikasi"
+    },
+    "userCard": {
+      "anonymousUser": "Pengguna Anonim",
+      "noName": "Tanpa Nama",
+      "noEmail": "Tanpa Email",
+      "phone": "Telepon",
+      "uid": "UID User",
+      "created": "Dibuat",
+      "lastLogin": "Terakhir Login",
+      "neverLoggedIn": "Belum pernah login",
+      "viewHistory": "Lihat Riwayat Pasien",
+      "admin": "ADMIN",
+      "disabled": "Dinonaktifkan"
+    },
+    "badges": {
+      "anonymous": "Pengguna Anonim",
+      "verified": "Terverifikasi",
+      "unverified": "Belum Terverifikasi",
+      "admin": "ADMIN",
+      "disabled": "Dinonaktifkan"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Selanjutnya"
+    },
+    "emptyState": {
+      "title": "Tidak ada pasien ditemukan",
+      "descriptionWithFilter": "Coba ubah filter atau kata kunci pencarian",
+      "descriptionNoData": "Belum ada pasien yang terdaftar"
+    },
+    "userCount": {
+      "showing": "Menampilkan",
+      "of": "dari",
+      "patients": "pasien",
+      "withStatus": "dengan status",
+      "forSearch": "untuk pencarian"
+    },
+    "toast": {
+      "uidCopied": "UID berhasil disalin!",
+      "uidCopyFailed": "Gagal menyalin UID",
+      "fetchFailed": "Gagal mengambil data users dari Firebase Auth",
+      "fetchError": "Terjadi kesalahan saat mengambil data"
+    },
+    "buttons": {
+      "back": "Kembali ke Dashboard"
+    }
+  }
+}

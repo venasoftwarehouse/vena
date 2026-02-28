@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "source": ".",
+    "sites:": "dianova",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      ".next/**",
+      "out/**",
+      "*.tsbuildinfo",
+      "next-env.d.ts",
+      "npm-debug.log*",
+      "yarn-debug.log*",
+      "yarn-error.log*",
+      ".pnpm-debug.log*",
+      ".vercel/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}

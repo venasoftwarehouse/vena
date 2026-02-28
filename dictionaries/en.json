@@ -1,0 +1,1469 @@
+{
+  "locale": "en",
+  "localeDate": "en-US",
+  "homepage": {
+    "hero": {
+      "badge": "Smart Patch Technology",
+      "title": {
+        "line1": "Dianova",
+        "line2": "Blood Glucose Monitor"
+      },
+      "description": "A blood glucose monitoring app powered by innovative smart patch technology. Easily and accurately track your blood sugar levels.",
+      "cta": {
+        "start": "Get Started",
+        "install": "Install App"
+      }
+    },
+    "features": {
+      "title": "Dianova’s Key Features",
+      "cards": {
+        "monitoring": {
+          "title": "Real-time Monitoring",
+          "description": "Track your blood glucose levels in real time with smart patch technology"
+        },
+        "analysis": {
+          "title": "Health Analysis",
+          "description": "Get comprehensive health insights based on your glucose data"
+        },
+        "webapp": {
+          "title": "Web Application",
+          "description": "Access from PC, iOS, and Android without installation"
+        },
+        "security": {
+          "title": "Data Security",
+          "description": "Your health data is safe and protected with end-to-end encryption"
+        }
+      }
+    },
+    "tabs": {
+      "labels": {
+        "monitoring": "Monitoring",
+        "analysis": "Analysis",
+        "app": "App",
+        "security": "Security"
+      },
+      "monitoring": {
+        "title": "Blood Glucose Monitoring",
+        "description": "Monitor your blood glucose levels with high accuracy and real-time results",
+        "items": {
+          "accurate": {
+            "title": "Accurate Readings",
+            "description": "Advanced sensor technology for precise results"
+          },
+          "realtime": {
+            "title": "Real-time",
+            "description": "Instant results available in the app"
+          },
+          "history": {
+            "title": "Complete History",
+            "description": "Store all your reading history"
+          },
+          "export": {
+            "title": "Export Data",
+            "description": "Export data for doctors or personal analysis"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Health Analysis",
+        "description": "Gain deep insights into your health condition",
+        "items": {
+          "trends": {
+            "title": "Health Trends",
+            "description": "Track your blood glucose trends over time"
+          },
+          "recommendations": {
+            "title": "Recommendations",
+            "description": "Receive suggestions based on your data"
+          },
+          "reports": {
+            "title": "Monthly Reports",
+            "description": "Regular monthly health reports"
+          },
+          "integration": {
+            "title": "Doctor Integration",
+            "description": "Share your reports with your doctor"
+          }
+        }
+      },
+      "app": {
+        "title": "Multi-Platform Web App",
+        "description": "Enjoy Dianova on multiple devices with no installation required",
+        "items": {
+          "universal": {
+            "title": "Universal Access",
+            "description": "Open from any browser on PC, iOS, or Android"
+          },
+          "noInstall": {
+            "title": "No Installation",
+            "description": "Use directly without downloading or installing"
+          },
+          "autoUpdate": {
+            "title": "Automatic Updates",
+            "description": "Always get the latest version without manual updates"
+          },
+          "pwa": {
+            "title": "PWA Support",
+            "description": "Install as an app if desired"
+          }
+        }
+      },
+      "security": {
+        "title": "Data Security",
+        "description": "Your health data is safe and protected",
+        "items": {
+          "encryption": {
+            "title": "End-to-End Encryption",
+            "description": "Your data is encrypted with the highest standards"
+          },
+          "privacy": {
+            "title": "Guaranteed Privacy",
+            "description": "Data is never shared with third parties"
+          },
+          "firebase": {
+            "title": "Firebase Backend",
+            "description": "Enhanced security through Firebase infrastructure"
+          },
+          "backup": {
+            "title": "Secure Backup",
+            "description": "Encrypted and secure data backups"
+          }
+        }
+      }
+    },
+    "pwa": {
+      "badge": "New",
+      "title": "Install as an App",
+      "description": "Experience Dianova as a full app on your device. Enjoy quick access, real-time notifications, and offline functionality.",
+      "features": {
+        "quickAccess": {
+          "title": "Quick Access",
+          "description": "Launch directly from your home screen"
+        },
+        "notifications": {
+          "title": "Notification Feature",
+          "description": "Receive important notifications instantly on your device"
+        },
+        "autoUpdate": {
+          "title": "Automatic Updates",
+          "description": "Always get the latest version without downloading"
+        }
+      },
+      "cta": "Learn How to Install",
+      "appName": "Dianova",
+      "appTagline": "Glucose Monitor"
+    },
+    "cta": {
+      "title": "Start Monitoring Your Health Today",
+      "description": "Join thousands of users who trust Dianova for their blood glucose monitoring.",
+      "buttons": {
+        "start": "Get Started",
+        "download": "Download APK"
+      }
+    }
+  },
+  "appHome": {
+    "welcome": {
+      "greeting": "Welcome",
+      "subtitle": "Monitor your glucose health easily with Dianova"
+    },
+    "quickActions": {
+      "scan": {
+        "title": "Scan Patch",
+        "description": "Scan the patch to check glucose levels"
+      },
+      "aiAssistant": {
+        "title": "AI Assistant",
+        "description": "Consult with AI"
+      },
+      "history": {
+        "title": "History",
+        "description": "View scan history"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "description": "Share your feedback"
+      }
+    },
+    "aiHighlight": {
+      "title": "Dianova AI Assistant",
+      "description": "Get personalized health advice and answers to your questions about diabetes and glucose management",
+      "features": {
+        "historyBased": "Suggestions based on your scan history",
+        "dietTips": "Healthy diet and lifestyle tips",
+        "diabetesInfo": "Information about diabetes and prevention"
+      },
+      "cta": "Start Chat with AI"
+    },
+    "healthStatus": {
+      "title": "Health Status",
+      "lastScan": "Last Check",
+      "glucoseStatus": "Glucose Status",
+      "weeklyTrend": "Weekly Trend",
+      "noData": "No data yet",
+      "badges": {
+        "normal": "Normal",
+        "warning": "Warning",
+        "high": "High"
+      },
+      "trends": {
+        "up": "Rising",
+        "down": "Falling",
+        "stable": "Stable",
+        "unavailable": "Unavailable"
+      }
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "noData": "No checkup history yet",
+      "startFirstScan": "Start First Scan",
+      "viewAll": "View All History"
+    },
+    "reminder": {
+      "title": "Today's Reminder",
+      "loadError": "Unable to load today's reminder."
+    },
+    "admin": {
+      "description": "User Management"
+    }
+  },
+  "login": {
+    "title": "Log in to Dianova",
+    "subtitle": "Sign in to continue monitoring your glucose levels",
+    "androidWebViewNotice": "Android WebView mode detected. Google Sign-In will use the Credential Manager.",
+    "form": {
+      "email": {
+        "label": "Email",
+        "placeholder": "name@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "submit": "Log In",
+      "submitting": "Processing..."
+    },
+    "divider": "Or",
+    "social": {
+      "google": "Sign in with Google",
+      "anonymous": "Continue as Guest"
+    },
+    "footer": {
+      "noAccount": "Don’t have an account?",
+      "register": "Register now"
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "emptyFields": "Please fill in your email and password"
+      },
+      "success": {
+        "title": "Login successful",
+        "welcome": "Welcome back!",
+        "welcomeNew": "Welcome!"
+      },
+      "failed": {
+        "title": "Login failed",
+        "titleGoogle": "Failed to sign in with Google",
+        "titleAnonymous": "Failed to continue as guest",
+        "defaultMessage": "An error occurred during login"
+      },
+      "anonymous": {
+        "title": "Guest Login",
+        "description": "You can now start using the app"
+      }
+    }
+  },
+  "chatbot": {
+    "header": {
+      "title": "Dianova AI Assistant",
+      "subtitle": "Your personal health assistant",
+      "status": "Online"
+    },
+    "welcome": {
+      "greeting": "Hello! I'm the Dianova AI Health Assistant. I'm here to help you with:",
+      "features": {
+        "diabetes": "Information about diabetes and glucose management",
+        "lifestyle": "Healthy lifestyle advice based on your scan results",
+        "diet": "Diet and exercise tips",
+        "usage": "How to use the Dianova app",
+        "motivation": "Motivation to maintain your health"
+      },
+      "question": "What would you like to ask today?"
+    },
+    "history": {
+      "title": "Chat History",
+      "newChat": "New Chat",
+      "loading": "Loading...",
+      "empty": {
+        "title": "No chat history yet",
+        "subtitle": "Start a chat to see your history here"
+      },
+      "delete": "Delete",
+      "deleteAll": "Delete All History",
+      "deleteDialog": {
+        "title": "Delete Chat History",
+        "description": "Are you sure you want to delete this chat history? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete",
+        "deleting": "Deleting..."
+      },
+      "deleteAllDialog": {
+        "title": "Delete All History",
+        "description": "Are you sure you want to delete all chat history? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete All",
+        "deleting": "Deleting..."
+      }
+    },
+    "loading": {
+      "fetching": "Fetching user data...",
+      "typing": "AI is typing..."
+    },
+    "quickQuestions": {
+      "title": "Popular Questions",
+      "questions": [
+        "How to lower blood sugar naturally?",
+        "What foods are good for diabetes?",
+        "How many times a day should I check my blood sugar?",
+        "Exercise tips for people with diabetes",
+        "How to properly use the Dianova patch"
+      ]
+    },
+    "disclaimer": {
+      "message": "This AI Assistant provides general information. For serious medical issues, please consult your doctor."
+    },
+    "input": {
+      "placeholder": "Ask about health, diabetes, or how to use Dianova..."
+    },
+    "error": {
+      "message": "Sorry, an error occurred while processing your message. Please try again later."
+    },
+    "toast": {
+      "sendError": {
+        "title": "Error",
+        "description": "Failed to send message. Please try again."
+      },
+      "loadError": {
+        "title": "Error",
+        "description": "Failed to load chat session. Please try again."
+      },
+      "deleteSuccess": {
+        "title": "Success",
+        "description": "Chat history deleted successfully."
+      },
+      "deleteError": {
+        "title": "Error",
+        "description": "Failed to delete chat history. Please try again."
+      },
+      "deleteAllSuccess": {
+        "title": "Success",
+        "description": "All chat history deleted successfully."
+      },
+      "deleteAllError": {
+        "title": "Error",
+        "description": "Failed to delete all chat history. Please try again."
+      }
+    }
+  },
+  "feedback": {
+    "badge": "Feedback",
+    "title": "Share Your Thoughts",
+    "subtitle": "We truly value your input to continuously improve your experience with Dianova",
+    "form": {
+      "title": "Send Feedback",
+      "description": "Fill out the form below to share your thoughts about the Dianova app",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name",
+          "autoFilled": "Name is automatically filled from your profile"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "email@example.com",
+          "autoFilled": "Email is automatically filled from your profile"
+        },
+        "category": {
+          "label": "Category",
+          "placeholder": "Select a category",
+          "options": {
+            "accuracy": "Scan Accuracy",
+            "usability": "Ease of Use",
+            "performance": "App Performance",
+            "features": "App Features",
+            "bug": "Bug Report",
+            "suggestion": "Improvement Suggestion",
+            "other": "Other"
+          }
+        },
+        "rating": {
+          "label": "Rating"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us about your experience using Dianova..."
+        }
+      },
+      "submit": "Submit Feedback",
+      "submitting": "Sending..."
+    },
+    "history": {
+      "title": "Your Feedback History",
+      "description": "Feedback you’ve previously submitted",
+      "loading": "Loading feedback history...",
+      "empty": {
+        "title": "No Feedback Yet",
+        "description": "You haven’t submitted any feedback yet. Share your experience with us!"
+      },
+      "deleteConfirm": "Are you sure you want to delete this feedback?"
+    },
+    "success": {
+      "title": "Feedback Sent!",
+      "message": "Thank you for your feedback. Your feedback has been published.",
+      "sendAgain": "Send Feedback Again"
+    },
+    "importance": {
+      "title": "Why Your Feedback Matters",
+      "description": "Every piece of feedback you provide helps us to:",
+      "points": [
+        "Improve glucose detection quality and accuracy",
+        "Fix bugs and technical issues",
+        "Develop useful new features",
+        "Enhance the overall user experience"
+      ]
+    },
+    "nextSteps": {
+      "title": "What Happens Next?",
+      "description": "After you submit your feedback, our team will:",
+      "steps": [
+        "Carefully analyze your input",
+        "Discuss it within the development team",
+        "Implement necessary improvements",
+        "Release updates in the next version"
+      ]
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "incomplete": "Please complete all required fields.",
+        "notLoggedIn": "You must be logged in to send feedback.",
+        "submitFailed": "Failed to send feedback. Please try again.",
+        "loadFailed": "Failed to load your feedback history.",
+        "deleteFailed": "Failed to delete feedback. Please try again."
+      },
+      "success": {
+        "title": "Success",
+        "submitted": "Thank you for your feedback! Your feedback has been published.",
+        "deleted": "Feedback deleted successfully."
+      }
+    }
+  },
+  "history": {
+    "title": "Scan History",
+    "description": "View all your glucose test results",
+    "buttons": {
+      "newScan": "New Scan",
+      "refresh": "Refresh",
+      "detail": "Detail",
+      "previous": "Previous",
+      "next": "Next",
+      "back": "Back to Historys",
+      "backToHistory": "Return to History"
+    },
+    "empty": {
+      "title": "No Scan History Yet",
+      "description": "You haven’t performed any glucose scans yet. Start your first scan to monitor your glucose health.",
+      "action": "Start First Scan"
+    },
+    "status": {
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High",
+      "unknown": "Unknown"
+    },
+    "colorLabels": {
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High"
+    },
+    "info": {
+      "accuracy": "Accuracy",
+      "showing": "Showing",
+      "of": "of",
+      "results": "scan results",
+      "page": "Page"
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "loadFailed": "Failed to load scan history. Please try again.",
+        "deleteFailed": "Failed to delete scan history. Please try again.",
+        "notFound": "History not found.",
+        "loadDetailFailed": "History failed to load details."
+      },
+      "success": {
+        "title": "Success",
+        "deleteSuccess": "Scan history deleted successfully."
+      }
+    },
+    "detail": {
+      "title": "Scan Details",
+      "description": "View complete glucose test results",
+      "scanResult": "Scan Result",
+      "resultAnalysis": "Analysis Result:",
+      "colorDistribution": "Color Distribution:",
+      "aiTipsTitle": "Tips from Dianova AI Assistant",
+      "aiNotesTitle": "Notes from AI",
+      "notFound": {
+        "title": "History Not Found",
+        "description": "The scan history you’re looking for was not found or has been deleted."
+      }
+    }
+  },
+  "scan": {
+    "title": "Glucose Patch Scan",
+    "description": "Scan the patch to check your blood glucose levels",
+    "lastResult": {
+      "title": "Last Scan Result",
+      "accuracy": "Accuracy",
+      "colorDistribution": "Color Distribution"
+    },
+    "aiSection": {
+      "tipsTitle": "Tips from Dianova AI Assistant",
+      "notesTitle": "Notes from AI",
+      "loadingTips": "Generating personalized tips...",
+      "loadingNotes": "Analyzing scan results..."
+    },
+    "status": {
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High"
+    },
+    "methods": {
+      "title": "Select Scan Method",
+      "description": "Choose one of the methods below to scan your glucose patch",
+      "camera": {
+        "title": "Scan with Camera",
+        "description": "Use your device camera to scan the patch in real-time",
+        "button": "Scan with Camera"
+      },
+      "upload": {
+        "title": "Upload Image",
+        "description": "Upload a photo of the patch you’ve taken earlier",
+        "button": "Upload Image"
+      },
+      "saving": "Saving..."
+    },
+    "instructions": {
+      "title": "How to Use",
+      "steps": {
+        "1": "Apply the patch to clean, dry skin",
+        "2": "Wait 2–3 minutes for the patch to react with sweat",
+        "3": "Select a scan method: use camera or upload patch image",
+        "4": "For camera scan: position the patch within the guide box and press the camera button",
+        "5": "For image upload: select a clear patch image and press \"Analyze Image\""
+      }
+    },
+    "tips": {
+      "title": "Tips for Best Results",
+      "items": {
+        "1": "Ensure the patch sticks firmly to your skin",
+        "2": "Use sufficient lighting",
+        "3": "Avoid shadows on the patch during scanning",
+        "4": "Hold the camera perpendicular to the patch",
+        "5": "Wait a few minutes after applying the patch",
+        "6": "For uploaded images, make sure the patch is clear and in focus"
+      }
+    },
+    "toast": {
+      "success": {
+        "saveTitle": "Scan Saved Successfully",
+        "saveDescription": "Your scan result has been saved to history.",
+        "reminderTitle": "Reminder Activated",
+        "reminderDescription": "A reminder for your next scan has been set for 2 hours."
+      },
+      "error": {
+        "saveTitle": "Failed to Save",
+        "saveDescription": "Failed to save scan result. Please try again.",
+        "processTitle": "Error",
+        "processDescription": "An error occurred while processing the scan."
+      }
+    },
+    "staticNotes": {
+      "normal": "Your glucose level is within the normal range. The dominant normal color distribution indicates your blood glucose is well-controlled. Maintain your current healthy diet and lifestyle.",
+      "warning": "The scan shows a slightly elevated glucose level with a significant warning color distribution. This may be an early sign that you should pay closer attention to your diet and physical activity. Monitor your glucose level regularly to track any changes.",
+      "high": "The scan shows a high glucose level with a dominant high color distribution. This is an important signal to consult your doctor immediately. Factors such as food intake, stress, or lack of physical activity may contribute to this result.",
+      "unknown": "Unable to determine glucose level accurately. Ensure the patch is applied properly, lighting is sufficient, and rescan for more accurate results."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your preferences and account settings",
+    "account": {
+      "title": "Account Information",
+      "defaultName": "Dianova User",
+      "emailNotAvailable": "Email not available",
+      "anonymousAccount": "Anonymous Account",
+      "anonymousWarning": "You are using an anonymous account. For better data security, consider creating an account with an email and password."
+    },
+    "app": {
+      "title": "App Settings",
+      "notifications": {
+        "label": "Notifications",
+        "description": "Receive notifications for scan reminders"
+      },
+      "autoSave": {
+        "label": "Auto Save",
+        "description": "Automatically save scan results"
+      },
+      "darkMode": {
+        "label": "Dark Mode",
+        "description": "Use a dark theme for the app"
+      },
+      "highQuality": {
+        "label": "High Image Quality",
+        "description": "Save images in high quality"
+      }
+    },
+    "dataPrivacy": {
+      "title": "Data & Privacy",
+      "privacyPolicy": "Privacy Policy",
+      "tos": "Terms & Conditions",
+      "userGuide": "User Guide"
+    },
+    "accountActions": {
+      "title": "Account Actions",
+      "logout": "Log Out",
+      "deleteAccount": "Delete Account"
+    },
+    "deleteDialog": {
+      "title": "Delete Account",
+      "description": "Are you sure you want to delete your account? All data including scan history will be permanently deleted. This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete Account",
+      "confirming": "Deleting..."
+    },
+    "toast": {
+      "logoutSuccess": {
+        "title": "Success",
+        "description": "You have successfully logged out."
+      },
+      "logoutError": {
+        "title": "Error",
+        "description": "Failed to log out. Please try again."
+      },
+      "deleteSuccess": {
+        "title": "Account Deleted",
+        "description": "Your account and data have been permanently deleted."
+      },
+      "deleteError": {
+        "title": "Error",
+        "description": "Failed to delete account. Please contact support.",
+        "requiresRecentLogin": "Please log in again before deleting your account."
+      },
+      "userNotFound": "User not found"
+    },
+    "appInfo": {
+      "version": "Dianova",
+      "copyright": "© 2025 Dianova. All rights reserved."
+    }
+  },
+  "privacyPolicy": {
+    "backButton": "Back",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 1st, 2025",
+    "cardTitle": "Dianova Privacy Policy",
+    "sections": {
+      "informationCollection": {
+        "title": "1. Information We Collect",
+        "description": "We collect the following information to provide the best possible service:",
+        "items": [
+          "Account information (email, name, profile photo)",
+          "Glucose patch scan data",
+          "Images of scanned patches",
+          "Chat history with the AI Assistant",
+          "Feedback and suggestions you provide"
+        ]
+      },
+      "informationUsage": {
+        "title": "2. How We Use the Information",
+        "description": "The collected information is used to:",
+        "items": [
+          "Provide glucose monitoring services",
+          "Offer personalized health insights",
+          "Store your examination history",
+          "Improve the accuracy of patch color detection",
+          "Provide technical support"
+        ]
+      },
+      "dataSecurity": {
+        "title": "3. Data Security",
+        "description": "We are committed to protecting your data through:",
+        "items": [
+          "Data encryption during transmission and storage",
+          "Secure Firebase authentication",
+          "Trusted image storage via Cloudflare R2",
+          "Restricted data access for app functions only",
+          "Regular security monitoring"
+        ]
+      },
+      "informationSharing": {
+        "title": "4. Information Sharing",
+        "description": "We will NOT share your personal data with third parties, except:",
+        "items": [
+          "With your explicit consent",
+          "To comply with legal obligations",
+          "In anonymized form for health research purposes"
+        ]
+      },
+      "userRights": {
+        "title": "5. Your Rights",
+        "description": "You have the right to:",
+        "items": [
+          "Access your personal data stored by us",
+          "Update or correct your information",
+          "Delete your account and all related data",
+          "Download a copy of your data",
+          "Opt out of certain data uses"
+        ]
+      },
+      "dataStorage": {
+        "title": "6. Data Retention",
+        "description": "Your data will be stored as long as your account remains active. After account deletion, your data will be permanently removed within 30 days, unless required by law to be retained longer."
+      },
+      "policyChanges": {
+        "title": "7. Policy Changes",
+        "description": "We may update this policy from time to time. Significant changes will be notified through the app or via email."
+      },
+      "contact": {
+        "title": "8. Contact",
+        "description": "If you have any questions about this privacy policy, please contact us at:",
+        "items": [
+          "Email: dianova@gmail.com",
+          "Address: SMA Negeri 1 Matauli Dormitory, Jl. KH. Dewantara, Sibuluan Indah, Pandan District, Central Tapanuli Regency, North Sumatra 22538, Indonesia"
+        ]
+      }
+    }
+  },
+  "procedure": {
+    "backButton": "Back",
+    "title": "User Guide",
+    "subtitle": "How to use Dianova properly",
+    "overview": {
+      "title": "About Dianova",
+      "description": "Dianova is a blood glucose monitoring app that uses smart patch technology. The patch changes color based on glucose levels in sweat, and the app analyzes the color to estimate your glucose level.",
+      "colorIndicators": {
+        "normal": "Green = Normal",
+        "warning": "Yellow = Warning",
+        "high": "Red = High"
+      }
+    },
+    "steps": {
+      "title": "Usage Steps",
+      "step1": {
+        "title": "Patch Preparation",
+        "items": [
+          "Clean the skin area where the patch will be applied",
+          "Make sure the skin is dry and free of oil",
+          "Avoid hairy or wounded areas",
+          "Choose an area that is easy to access for scanning"
+        ]
+      },
+      "step2": {
+        "title": "Patch Application",
+        "items": [
+          "Carefully remove the patch adhesive cover",
+          "Gently place the patch and press evenly",
+          "Make sure there are no air bubbles",
+          "Ensure the patch sticks firmly"
+        ]
+      },
+      "step3": {
+        "title": "Waiting Time",
+        "items": [
+          "Wait 2–3 minutes for the patch to react with sweat",
+          "Do not touch or move the patch",
+          "Keep the area dry and free from liquids",
+          "The patch will gradually change color"
+        ]
+      },
+      "step4": {
+        "title": "Scanning with the App",
+        "items": [
+          "Open the Dianova app and select \"Scan Patch\"",
+          "Ensure there is sufficient lighting",
+          "Align the patch within the guide frame",
+          "Tap the camera button to capture the image"
+        ]
+      },
+      "step5": {
+        "title": "Result Interpretation",
+        "items": [
+          "View the color analysis and glucose estimation result",
+          "Read the recommendations provided by the app",
+          "Save the result to your history records",
+          "Consult your doctor if necessary"
+        ]
+      }
+    },
+    "tips": {
+      "title": "Tips for Best Results",
+      "lighting": {
+        "title": "Optimal Lighting",
+        "description": "Use natural light or bright white lighting. Avoid yellow light or shadows."
+      },
+      "cameraPosition": {
+        "title": "Camera Position",
+        "description": "Hold your phone perpendicular to the patch, about 10–15 cm away for best results."
+      },
+      "avoidInterference": {
+        "title": "Avoid Interference",
+        "description": "Do not scan wet, dirty, or old patches (applied for more than 1 hour)."
+      }
+    },
+    "warning": {
+      "title": "Important Warnings",
+      "items": [
+        "Dianova is not a certified medical device",
+        "Results are for reference only, not for medical diagnosis",
+        "Always consult your doctor for medical decisions",
+        "In emergencies, contact medical services immediately"
+      ]
+    },
+    "support": {
+      "title": "Need Help?",
+      "description": "If you experience any issues or have questions, please don’t hesitate to contact us.",
+      "sendFeedback": "Send Feedback",
+      "askAssistant": "Ask AI Assistant"
+    }
+  },
+  "tos": {
+    "backButton": "Back",
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: October 1st, 2025",
+    "cardTitle": "Dianova Terms & Conditions of Use",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "description": "By using the Dianova application, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use this application."
+      },
+      "serviceDescription": {
+        "title": "2. Service Description",
+        "description": "Dianova is a blood glucose monitoring application that provides:",
+        "items": [
+          "Glucose patch color detection using the camera",
+          "Glucose level estimation based on color analysis",
+          "Storage of examination history",
+          "AI Assistant for general health advice",
+          "Feedback and support system"
+        ]
+      },
+      "medicalLimitations": {
+        "title": "3. Medical Limitations",
+        "disclaimer": "IMPORTANT – MEDICAL DISCLAIMER:",
+        "items": [
+          "Dianova is NOT a certified medical device",
+          "Scan results are for reference only and DO NOT replace professional medical examinations",
+          "Always consult a doctor for diagnosis and treatment",
+          "Do not rely on this application for critical medical decisions",
+          "In case of emergency, contact medical services immediately"
+        ]
+      },
+      "allowedUsage": {
+        "title": "4. Permitted Use",
+        "description": "You are allowed to:",
+        "items": [
+          "Use the application for personal monitoring",
+          "Save and access your own scan data",
+          "Share results with healthcare professionals",
+          "Provide feedback for app improvement"
+        ]
+      },
+      "prohibitedUsage": {
+        "title": "5. Prohibited Use",
+        "description": "You are NOT allowed to:",
+        "items": [
+          "Use the application for commercial purposes without permission",
+          "Modify, distribute, or create derivative works",
+          "Use the app to spread false medical information",
+          "Interfere with or damage the app’s functionality",
+          "Access other users’ data without authorization"
+        ]
+      },
+      "accuracyReliability": {
+        "title": "6. Accuracy and Reliability",
+        "description": "While we strive to provide accurate results, we do not guarantee 100% accuracy in color detection or glucose estimation. Factors such as lighting conditions, camera quality, and patch condition may affect results."
+      },
+      "userResponsibility": {
+        "title": "7. User Responsibility",
+        "description": "Users are responsible for:",
+        "items": [
+          "Using the patch according to the provided instructions",
+          "Ensuring optimal conditions during scanning",
+          "Keeping account credentials and passwords secure",
+          "Reporting any issues or bugs encountered",
+          "Using information responsibly"
+        ]
+      },
+      "liabilityLimitation": {
+        "title": "8. Limitation of Liability",
+        "description": "Dianova and its developers are not liable for any losses or damages arising from the use of this application, including but not limited to medical decisions made based on app results."
+      },
+      "serviceChanges": {
+        "title": "9. Service Modifications",
+        "description": "We reserve the right to modify, discontinue, or restrict the service at any time, with or without prior notice."
+      },
+      "contact": {
+        "title": "10. Contact",
+        "description": "For questions regarding these Terms and Conditions:",
+        "items": [
+          "Email: dianova@gmail.com",
+          "Support: dianova@gmail.com"
+        ]
+      }
+    }
+  },
+  "register": {
+    "title": "Sign Up for Dianova",
+    "subtitle": "Create an account to start monitoring your glucose",
+    "webViewNotice": "Android WebView mode detected. Google Sign-In will use Chrome Custom Tabs.",
+    "form": {
+      "email": {
+        "label": "Email",
+        "placeholder": "name@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "At least 6 characters"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Repeat your password"
+      },
+      "submitButton": "Sign Up",
+      "submitting": "Processing..."
+    },
+    "divider": "Or",
+    "googleButton": "Sign Up with Google",
+    "guestButton": "Continue as Guest",
+    "footer": {
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in now"
+    },
+    "validation": {
+      "allFieldsRequired": "Please fill in all fields",
+      "passwordMinLength": "Password must be at least 6 characters long",
+      "passwordInvalid": "Invalid password",
+      "passwordMismatch": "Passwords do not match",
+      "passwordMismatchDescription": "Confirm password must match the password"
+    },
+    "toast": {
+      "registerSuccess": {
+        "title": "Registration Successful",
+        "description": "Your account has been created. Welcome to Dianova!",
+        "descriptionShort": "Welcome to Dianova!"
+      },
+      "registerError": {
+        "title": "Registration Failed",
+        "defaultMessage": "An error occurred during registration",
+        "emailInUse": "Email already registered. Please use another email or log in to your account.",
+        "invalidEmail": "Invalid email format",
+        "weakPassword": "Password too weak. Use at least 6 characters."
+      },
+      "googleRegisterError": {
+        "title": "Failed to Register with Google",
+        "defaultMessage": "An error occurred during registration"
+      },
+      "guestLogin": {
+        "title": "Guest Login",
+        "description": "You can start using the app now"
+      },
+      "guestLoginError": {
+        "title": "Failed to Log in as Guest",
+        "defaultMessage": "An error occurred while logging in"
+      }
+    }
+  },
+  "release": {
+    "badge": "Smart Patch Technology",
+    "title": "Dianova Android App",
+    "subtitle": "The official Android app for blood glucose monitoring powered by innovative smart patch technology.",
+    "version": "Version 1.0.0",
+    "download": {
+      "title": "Download the Dianova App",
+      "description": "Get the Dianova app for your Android device now and enjoy easy and accurate glucose monitoring.",
+      "downloadButton": "Download APK (v1.0.0)",
+      "learnMoreButton": "Learn More",
+      "fileInfo": "File size: ~9 MB | Compatible with Android 8.0+ (Oreo)"
+    },
+    "pwa": {
+      "title": "Not an Android user? Try installing as a Web App",
+      "description": "Install the Dianova app as a Progressive Web App (PWA) on your device.",
+      "ios": {
+        "title": "iPhone & iPad (Safari)",
+        "description": "Install the Dianova app on iOS devices using Safari",
+        "step1": {
+          "title": "Open the Share Menu",
+          "description": "Tap the Share icon at the bottom of Safari"
+        },
+        "step2": {
+          "title": "Select \"Add to Home Screen\"",
+          "description": "Scroll down and select this option"
+        },
+        "step3": {
+          "title": "Confirm Installation",
+          "description": "Tap \"Add\" at the top-right corner"
+        },
+        "openButton": "Open App"
+      },
+      "android": {
+        "title": "Android & PC (Chrome-Based)",
+        "description": "Install the Dianova app on Android & PC devices using Chrome-based browsers",
+        "step1": {
+          "title": "Open the App in Chrome",
+          "description": "Visit the Dianova app page"
+        },
+        "step2": {
+          "title": "Wait for the Install Prompt",
+          "description": "Chrome will automatically display an installation prompt"
+        },
+        "step3": {
+          "title": "Tap \"Install\"",
+          "description": "Confirm installation by pressing the Install button"
+        },
+        "openButton": "Open App"
+      },
+      "benefits": {
+        "title": "Benefits of Installing as a PWA",
+        "quickAccess": {
+          "title": "Quick Access",
+          "description": "Open the app directly from your home screen without opening a browser"
+        },
+        "fullScreen": {
+          "title": "Full-Screen Experience",
+          "description": "Enjoy a distraction-free experience without browser elements"
+        },
+        "offline": {
+          "title": "Offline Support",
+          "description": "Access certain features even without an internet connection"
+        },
+        "autoUpdate": {
+          "title": "Automatic Updates",
+          "description": "Always get the latest version without needing an app store download"
+        }
+      }
+    },
+    "features": {
+      "main": {
+        "title": "Main Features",
+        "description": "The Dianova app comes with advanced features for effective glucose monitoring.",
+        "items": [
+          "Instant scan for glucose detection via patch",
+          "High-precision patch color detection",
+          "Upload patch images for deeper analysis",
+          "Real-time notifications for test results",
+          "Intuitive and user-friendly interface design"
+        ]
+      },
+      "security": {
+        "title": "Security & Performance",
+        "description": "The app is designed with top priority on data security and high performance.",
+        "items": [
+          "End-to-end data encryption for maximum privacy",
+          "Secure Google authentication",
+          "Optimized for a wide range of Android devices",
+          "Automatic updates for the latest features",
+          "Battery-efficient performance"
+        ]
+      }
+    },
+    "smartPatch": {
+      "title": "Smart Patch Technology",
+      "description": "Dianova’s latest innovation — a smart patch for accurate glucose monitoring.",
+      "paragraph1": "The Smart Patch Technology is an innovative solution that enables glucose monitoring through sweat. The patch reacts to glucose levels in your sweat by changing color, allowing accurate detection.",
+      "paragraph2": "With the Dianova Android app, you can easily scan the patch using your phone’s camera, and our AI will analyze the result with high precision. The app intelligently manages data and memory usage, ensuring smooth and efficient performance across various Android devices."
+    },
+    "aiAssistant": {
+      "title": "AI Assistant",
+      "description": "Get personalized health insights from an AI that understands your condition.",
+      "paragraph1": "The Dianova app includes an AI Assistant that provides health tips based on your glucose monitoring results. It’s designed to recognize trends and patterns in your data, giving useful insights to help maintain your health.",
+      "paragraph2": "The AI Assistant can also remind you to perform regular checks and recommend healthy lifestyle habits tailored to your condition."
+    }
+  },
+  "anonymousWarningModal": {
+    "title": "Anonymous Login Warning",
+    "description": "By using anonymous login, you will experience the following limitations:",
+    "limitations": [
+      "Scan history data cannot be recovered if the app is deleted",
+      "Cannot access data from other devices",
+      "Limited synchronization features",
+      "Cannot use automatic backup features"
+    ],
+    "confirmQuestion": "Are you sure you want to continue?",
+    "buttons": {
+      "cancel": "Cancel",
+      "confirm": "Yes, Continue"
+    }
+  },
+  "appLayout": {
+    "appName": "Dianova",
+    "navigation": {
+      "home": "Home",
+      "scan": "Scan",
+      "history": "History",
+      "aiAssistant": "AI Assistant",
+      "feedback": "Feedback"
+    },
+    "userMenu": {
+      "loading": "Loading...",
+      "anonymousUser": "Anonymous User",
+      "settings": "Settings",
+      "feedback": "Feedback",
+      "logout": "Logout"
+    }
+  },
+  "appSuggestionPopup": {
+    "title": "Open Dianova",
+    "closeButton": "Close",
+    "browserOption": {
+      "title": "Continue in Browser",
+      "description": "Open Dianova web version",
+      "button": "Continue"
+    },
+    "appOption": {
+      "title": "Download Dianova App",
+      "descriptionAndroid": "Best experience on Android",
+      "descriptionDesktop": "Best experience on desktop",
+      "button": "Download"
+    }
+  },
+  "cameraScanner": {
+    "errors": {
+      "cameraError": "Camera Error",
+      "tryAgain": "Try Again",
+      "close": "Close",
+      "cameraIssue": "Camera Issue",
+      "cameraNotAvailable": "Camera cannot display image. Make sure the camera is not being used by another application.",
+      "stillHasIssue": "Still having camera issues (attempt {{count}}/{{max}}).",
+      "refreshPage": "Refresh Page",
+      "retryAttempt": "Try Again ({{count}}/{{max}})",
+      "captureError": "Failed to capture photo. Please try again.",
+      "switchCameraError": "Failed to switch camera. Please try again."
+    },
+    "permission": {
+      "title": "Camera Permission Required",
+      "description": "To use the scan feature, you need to grant camera access. Please click the button below to request camera permission.",
+      "grantPermission": "Grant Camera Permission",
+      "cancel": "Cancel",
+      "hint": "If you have previously denied permission, you need to change the camera permission settings in your browser."
+    },
+    "results": {
+      "title": "Scan Results",
+      "glucoseStatus": "Glucose Status",
+      "accurate": "{{percent}}% accurate",
+      "colorDistribution": "Color Distribution",
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High",
+      "scanAgain": "Scan Again",
+      "reminderNotification": "Scan reminder will be sent in 2 hours",
+      "lowConfidence": {
+        "title": "Patch color cannot be clearly identified",
+        "description": "Make sure the lighting is adequate and the patch is clearly visible. Try scanning again."
+      }
+    },
+    "scanning": {
+      "title": "Scan Glucose Patch",
+      "live": "• Live",
+      "frontCamera": "(Front)",
+      "backCamera": "(Back)",
+      "patchDetected": "Patch detected ({{percent}}%)",
+      "positionPatch": "Position the patch inside the box",
+      "analyzing": "Analyzing color...",
+      "cameraNotAvailable": "Camera not available",
+      "patchDetectedReady": "Patch detected, press to scan",
+      "positionAndPress": "Position the patch inside the box and press the button",
+      "loadingLibrary": "Loading library...",
+      "waitingCamera": "Waiting for camera to be ready..."
+    },
+    "warnings": {
+      "videoNotReady": "Video is not ready. Wait a moment or try refreshing the camera.",
+      "retryFailed": "Failed to access camera after several attempts. Please refresh the page."
+    }
+  },
+  "imageUploader": {
+    "title": "Upload Patch Image",
+    "close": "Close",
+    "upload": {
+      "description": "Select a glucose patch image to analyze",
+      "clickToUpload": "Click to upload image",
+      "fileTypes": "PNG, JPG, or JPEG (Max. 5MB)",
+      "imageSelected": "Patch image has been selected, click \"Analyze\" to process"
+    },
+    "buttons": {
+      "analyze": "Analyze Image",
+      "analyzing": "Analyzing...",
+      "selectAnother": "Select Another Image"
+    },
+    "results": {
+      "title": "Analysis Results",
+      "glucoseStatus": "Glucose Status",
+      "accurate": "{{percent}}% accurate",
+      "colorDistribution": "Color Distribution",
+      "normal": "Normal",
+      "warning": "Warning",
+      "high": "High",
+      "lowConfidence": {
+        "title": "Patch color cannot be clearly identified",
+        "description": "Make sure the image is clear and the patch is clearly visible. Try with another image."
+      }
+    },
+    "errors": {
+      "canvasContext": "Failed to get canvas context",
+      "analyzing": "An error occurred while analyzing the image"
+    }
+  },
+  "publicFooter": {
+    "appName": "Dianova",
+    "navigation": {
+      "home": "Home",
+      "release": "Release",
+      "privacyPolicy": "Privacy Policy",
+      "tos": "Terms & Conditions",
+      "procedure": "Usage Procedure",
+      "feedback": "Feedback"
+    },
+    "copyright": "© 2025 Dianova. All rights reserved."
+  },
+  "publicHeader": {
+    "appName": "Dianova",
+    "navigation": {
+      "home": "Home",
+      "release": "Release",
+      "privacyPolicy": "Privacy Policy",
+      "tos": "T&C",
+      "procedure": "Procedure",
+      "feedback": "Feedback"
+    },
+    "openApp": "Open App",
+    "toggleMenu": "Toggle menu"
+  },
+  "pwaInstallPrompt": {
+    "title": "Install Dianova App",
+    "close": "Close",
+    "install": {
+      "title": "Install Dianova on Your iPhone",
+      "description": "Access the app faster from your home screen",
+      "howToTitle": "How to Install:",
+      "steps": [
+        "Tap the Share icon at the bottom of Safari",
+        "Scroll down and select \"Add to Home Screen\"",
+        "Tap \"Add\" in the top right corner"
+      ]
+    },
+    "buttons": {
+      "later": "Later",
+      "fullGuide": "Full Guide"
+    },
+    "guide": {
+      "title": "How to Install Dianova App on iPhone",
+      "step1": {
+        "title": "Step 1: Open Share Menu",
+        "description": "When opening the Dianova app in Safari, tap the Share icon located at the bottom of the screen.",
+        "iconLabel": "Share Icon"
+      },
+      "step2": {
+        "title": "Step 2: Select \"Add to Home Screen\"",
+        "description": "Scroll down on the menu that appears and select the \"Add to Home Screen\" option.",
+        "optionTitle": "Add to Home Screen",
+        "optionDescription": "Add to Home Screen"
+      },
+      "step3": {
+        "title": "Step 3: Confirm Installation",
+        "description": "Tap the \"Add\" button in the top right corner to confirm installation.",
+        "buttonLabel": "Add"
+      },
+      "complete": {
+        "title": "Done!",
+        "description": "You can now access the Dianova app directly from your iPhone home screen without having to open the browser first."
+      }
+    }
+  },
+  "adminPage": {
+    "title": "Admin Panel",
+    "subtitle": "Manage system users",
+    "buttons": {
+      "addUser": "Add User",
+      "edit": "Edit",
+      "history": "History",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save Changes",
+      "create": "Create User",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "search": {
+      "placeholder": "Search by name, email, phone, or role...",
+      "filterPlaceholder": "Filter Role",
+      "allRoles": "All Roles"
+    },
+    "badges": {
+      "anonymous": "Anonymous",
+      "verified": "Verified",
+      "disabled": "Disabled"
+    },
+    "roles": {
+      "admin": "admin",
+      "doctor": "doctor",
+      "nurse": "nurse",
+      "user": "user"
+    },
+    "userCard": {
+      "phone": "Phone",
+      "uid": "User UID",
+      "created": "Created",
+      "lastLogin": "Last Login",
+      "noName": "No Name",
+      "anonymousUser": "Anonymous User",
+      "noEmail": "No Email",
+      "neverLoggedIn": "Never logged in"
+    },
+    "emptyState": {
+      "title": "No users found",
+      "descriptionWithFilter": "Try changing the filter or search keywords",
+      "descriptionNoFilter": "Click the \"Add User\" button to add a new user"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "users": "users",
+      "withRole": "with role",
+      "forSearch": "for search"
+    },
+    "createDialog": {
+      "title": "Add New User",
+      "description": "Create a new user account for the system",
+      "fields": {
+        "uid": "User UID",
+        "uidAutoGenerated": "Will be automatically generated",
+        "uidHelper": "UID will be automatically generated by the system",
+        "email": "Email",
+        "emailPlaceholder": "user@example.com",
+        "password": "Password",
+        "passwordPlaceholder": "Minimum 6 characters",
+        "displayName": "Full Name",
+        "displayNamePlaceholder": "John Doe",
+        "phoneNumber": "Phone Number (Optional)",
+        "phoneNumberPlaceholder": "+1 8123456789",
+        "role": "Role",
+        "rolePlaceholder": "Select role",
+        "photoURL": "Photo URL (Optional)",
+        "photoURLPlaceholder": "https://example.com/photo.jpg"
+      },
+      "submitting": "Creating..."
+    },
+    "editDialog": {
+      "title": "Edit User",
+      "description": "Update user information",
+      "fields": {
+        "uid": "User UID",
+        "uidHelper": "UID cannot be changed",
+        "email": "Email",
+        "emailHelper": "Email cannot be changed",
+        "displayName": "Full Name",
+        "displayNamePlaceholder": "John Doe",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 8123456789",
+        "role": "Role",
+        "rolePlaceholder": "Select role",
+        "photoURL": "Photo URL",
+        "photoURLPlaceholder": "https://example.com/photo.jpg"
+      },
+      "submitting": "Saving..."
+    },
+    "deleteDialog": {
+      "title": "Delete User",
+      "description": "Are you sure you want to delete user",
+      "warning": "This action cannot be undone.",
+      "submitting": "Deleting..."
+    },
+    "toast": {
+      "uidCopied": "UID successfully copied!",
+      "uidCopyFailed": "Failed to copy UID",
+      "fetchUsersFailed": "Failed to fetch user data",
+      "fetchError": "An error occurred while fetching data",
+      "createSuccess": "User successfully created",
+      "createFailed": "Failed to create user",
+      "createError": "An error occurred while creating user",
+      "createValidation": "Email, password, and name are required",
+      "updateSuccess": "User successfully updated",
+      "updateFailed": "Failed to update user",
+      "updateError": "An error occurred while updating user",
+      "updateValidation": "Name is required",
+      "deleteSuccess": "User successfully deleted",
+      "deleteFailed": "Failed to delete user",
+      "deleteError": "An error occurred while deleting user"
+    }
+  },
+  "doctorPage": {
+    "welcome": {
+      "greeting": "Welcome",
+      "subtitle": "Manage and monitor your patient data"
+    },
+    "dashboard": {
+      "searchPlaceholder": "Search by name, email, phone, UID, or status...",
+      "filterStatus": "Filter Status",
+      "allStatus": "All Status",
+      "anonymous": "Anonymous",
+      "verified": "Verified",
+      "unverified": "Unverified"
+    },
+    "userCard": {
+      "anonymousUser": "Anonymous User",
+      "noName": "No Name",
+      "noEmail": "No Email",
+      "phone": "Phone",
+      "uid": "User UID",
+      "created": "Created",
+      "lastLogin": "Last Login",
+      "neverLoggedIn": "Never logged in",
+      "viewHistory": "View Patient History",
+      "admin": "ADMIN",
+      "disabled": "Disabled"
+    },
+    "badges": {
+      "anonymous": "Anonymous",
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "admin": "ADMIN",
+      "disabled": "Disabled"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "emptyState": {
+      "title": "No patients found",
+      "descriptionWithFilter": "Try changing the filter or search keywords",
+      "descriptionNoData": "No patients registered yet"
+    },
+    "userCount": {
+      "showing": "Showing",
+      "of": "of",
+      "patients": "patients",
+      "withStatus": "with status",
+      "forSearch": "for search"
+    },
+    "toast": {
+      "uidCopied": "UID copied successfully!",
+      "uidCopyFailed": "Failed to copy UID",
+      "fetchFailed": "Failed to fetch users from Firebase Auth",
+      "fetchError": "An error occurred while fetching data"
+    },
+    "buttons": {
+      "back": "Return to Dashboard"
+    }
+  }
+}
