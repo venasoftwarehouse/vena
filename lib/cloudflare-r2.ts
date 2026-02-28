@@ -12,7 +12,7 @@ const R2_CONFIG = {
   },
 }
 
-const BUCKET_NAME = process.env.NEXT_PUBLIC_R2_BUCKET_NAME || "dianova-images"
+const BUCKET_NAME = process.env.NEXT_PUBLIC_R2_BUCKET_NAME || "vena-images"
 const PUBLIC_URL = process.env.NEXT_PUBLIC_R2_PUBLIC_URL
 
 // Initialize S3 client for R2
@@ -90,7 +90,7 @@ export async function getSignedImageUrl(key: string, expiresIn = 3600): Promise<
 export async function deleteImage(key: string): Promise<void> {
   try {
     console.log(`Attempting to delete image with key: ${key}`)
-    
+
     const command = new DeleteObjectCommand({
       Bucket: BUCKET_NAME,
       Key: key,

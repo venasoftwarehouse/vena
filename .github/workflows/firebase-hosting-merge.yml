@@ -16,8 +16,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DIANOVAWEB }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_VENA_BSD }}
           channelId: live
-          projectId: dianovaweb
+          projectId: vena-bsd
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks

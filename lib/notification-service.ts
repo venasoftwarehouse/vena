@@ -135,7 +135,7 @@ export function scheduleScanReminder(hours: number = 2) {
   } else {
     console.log("Using client-side JS scheduling for scan reminder.")
     const reminderTime = new Date().getTime() + hours * 60 * 60 * 1000
-    localStorage.setItem("dianova-scan-reminder-time", reminderTime.toString())
+    localStorage.setItem("vena-scan-reminder-time", reminderTime.toString())
 
     setTimeout(() => {
       showNotification("Pengingat Scan Glukosa", {
@@ -167,11 +167,11 @@ export function scheduleDailyReminder(hour: number = 8, minute: number = 0) {
       try {
         const response = await fetch("/api/daily-reminder", { method: "POST", body: JSON.stringify({ userId: "" }) });
         const data = await response.json();
-        if(data.success) {
-            showNotification("Pengingat Harian Dianova", {
-                body: data.reminder,
-                tag: "daily-reminder",
-            });
+        if (data.success) {
+          showNotification("Pengingat Harian Vena", {
+            body: data.reminder,
+            tag: "daily-reminder",
+          });
         }
       } catch (error) {
         console.error("Could not fetch daily reminder", error);
@@ -183,44 +183,44 @@ export function scheduleDailyReminder(hour: number = 8, minute: number = 0) {
 }
 
 export function cancelAllReminders() {
-    console.log("Cancelling all reminders.")
-    if (window.Android && window.Android.cancelAllReminders) {
-        console.log("Using native Android cancellation.")
-        window.Android.cancelAllReminders()
-    } else {
-        // This is tricky with setTimeout. For now, we can only clear future schedules if we had stored their IDs.
-        // A more robust web-only solution would involve the service worker.
-        console.log("Web-based cancellation is not fully implemented in this version.")
-    }
+  console.log("Cancelling all reminders.")
+  if (window.Android && window.Android.cancelAllReminders) {
+    console.log("Using native Android cancellation.")
+    window.Android.cancelAllReminders()
+  } else {
+    // This is tricky with setTimeout. For now, we can only clear future schedules if we had stored their IDs.
+    // A more robust web-only solution would involve the service worker.
+    console.log("Web-based cancellation is not fully implemented in this version.")
+  }
 }
 
 // Alias for cancelAllReminders to maintain compatibility
 export function clearScanReminders() {
-    console.log("Clearing scan reminders...")
-    if (window.Android && window.Android.cancelAllReminders) {
-        window.Android.cancelAllReminders()
-    } else {
-        // Clear any stored reminder times
-        localStorage.removeItem("dianova-scan-reminder-time")
-        console.log("Cleared scan reminders from localStorage")
-    }
+  console.log("Clearing scan reminders...")
+  if (window.Android && window.Android.cancelAllReminders) {
+    window.Android.cancelAllReminders()
+  } else {
+    // Clear any stored reminder times
+    localStorage.removeItem("vena-scan-reminder-time")
+    console.log("Cleared scan reminders from localStorage")
+  }
 }
 
 // Add missing functions
 export function initializeNotifications() {
-    console.log("Initializing notifications...")
-    if (typeof window !== "undefined") {
-        // Check if we're in an Android environment
-        if (window.Android) {
-            console.log("Android environment detected")
-            // Request permissions if needed
-            if (!window.Android.hasNotificationPermission?.()) {
-                window.Android.requestNotificationPermission?.()
-            }
-        } else {
-            console.log("Web environment detected")
-            // Request notification permission for web
-            requestNotificationPermission()
-        }
+  console.log("Initializing notifications...")
+  if (typeof window !== "undefined") {
+    // Check if we're in an Android environment
+    if (window.Android) {
+      console.log("Android environment detected")
+      // Request permissions if needed
+      if (!window.Android.hasNotificationPermission?.()) {
+        window.Android.requestNotificationPermission?.()
+      }
+    } else {
+      console.log("Web environment detected")
+      // Request notification permission for web
+      requestNotificationPermission()
     }
+  }
 }

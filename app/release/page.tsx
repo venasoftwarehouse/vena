@@ -12,7 +12,7 @@ import { useI18n } from "@/lib/i18n-context";
 // Client Component untuk menangani event onClick
 function ScrollToFeaturesButton() {
   const { t } = useI18n();
-  
+
   const scrollToFeatures = () => {
     const element = document.getElementById("features");
     if (element) {
@@ -62,7 +62,7 @@ export default function ReleasePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="https://pub-2539cdf054104bf996af49bee301a3a8.r2.dev/apk/dianova-v.1.0.0.apk" target="_blank" rel="noopener noreferrer">
+              <Link href="https://pub-2539cdf054104bf996af49bee301a3a8.r2.dev/apk/vena-v.1.0.0.apk" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                   <Download className="mr-2 h-5 w-5" />
                   {t("release.download.downloadButton")}

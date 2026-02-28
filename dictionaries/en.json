@@ -5,7 +5,7 @@
     "hero": {
       "badge": "Smart Patch Technology",
       "title": {
-        "line1": "Dianova",
+        "line1": "Vena",
         "line2": "Blood Glucose Monitor"
       },
       "description": "A blood glucose monitoring app powered by innovative smart patch technology. Easily and accurately track your blood sugar levels.",
@@ -15,7 +15,7 @@
       }
     },
     "features": {
-      "title": "Dianova’s Key Features",
+      "title": "Vena’s Key Features",
       "cards": {
         "monitoring": {
           "title": "Real-time Monitoring",
@@ -88,7 +88,7 @@
       },
       "app": {
         "title": "Multi-Platform Web App",
-        "description": "Enjoy Dianova on multiple devices with no installation required",
+        "description": "Enjoy Vena on multiple devices with no installation required",
         "items": {
           "universal": {
             "title": "Universal Access",
@@ -134,7 +134,7 @@
     "pwa": {
       "badge": "New",
       "title": "Install as an App",
-      "description": "Experience Dianova as a full app on your device. Enjoy quick access, real-time notifications, and offline functionality.",
+      "description": "Experience Vena as a full app on your device. Enjoy quick access, real-time notifications, and offline functionality.",
       "features": {
         "quickAccess": {
           "title": "Quick Access",
@@ -150,12 +150,12 @@
         }
       },
       "cta": "Learn How to Install",
-      "appName": "Dianova",
+      "appName": "Vena",
       "appTagline": "Glucose Monitor"
     },
     "cta": {
       "title": "Start Monitoring Your Health Today",
-      "description": "Join thousands of users who trust Dianova for their blood glucose monitoring.",
+      "description": "Join thousands of users who trust Vena for their blood glucose monitoring.",
       "buttons": {
         "start": "Get Started",
         "download": "Download APK"
@@ -165,7 +165,7 @@
   "appHome": {
     "welcome": {
       "greeting": "Welcome",
-      "subtitle": "Monitor your glucose health easily with Dianova"
+      "subtitle": "Monitor your glucose health easily with Vena"
     },
     "quickActions": {
       "scan": {
@@ -186,7 +186,7 @@
       }
     },
     "aiHighlight": {
-      "title": "Dianova AI Assistant",
+      "title": "Vena AI Assistant",
       "description": "Get personalized health advice and answers to your questions about diabetes and glucose management",
       "features": {
         "historyBased": "Suggestions based on your scan history",
@@ -228,7 +228,7 @@
     }
   },
   "login": {
-    "title": "Log in to Dianova",
+    "title": "Log in to Vena",
     "subtitle": "Sign in to continue monitoring your glucose levels",
     "androidWebViewNotice": "Android WebView mode detected. Google Sign-In will use the Credential Manager.",
     "form": {
@@ -276,17 +276,17 @@
   },
   "chatbot": {
     "header": {
-      "title": "Dianova AI Assistant",
+      "title": "Vena AI Assistant",
       "subtitle": "Your personal health assistant",
       "status": "Online"
     },
     "welcome": {
-      "greeting": "Hello! I'm the Dianova AI Health Assistant. I'm here to help you with:",
+      "greeting": "Hello! I'm the Vena AI Health Assistant. I'm here to help you with:",
       "features": {
         "diabetes": "Information about diabetes and glucose management",
         "lifestyle": "Healthy lifestyle advice based on your scan results",
         "diet": "Diet and exercise tips",
-        "usage": "How to use the Dianova app",
+        "usage": "How to use the Vena app",
         "motivation": "Motivation to maintain your health"
       },
       "question": "What would you like to ask today?"
@@ -327,14 +327,14 @@
         "What foods are good for diabetes?",
         "How many times a day should I check my blood sugar?",
         "Exercise tips for people with diabetes",
-        "How to properly use the Dianova patch"
+        "How to properly use the Vena patch"
       ]
     },
     "disclaimer": {
       "message": "This AI Assistant provides general information. For serious medical issues, please consult your doctor."
     },
     "input": {
-      "placeholder": "Ask about health, diabetes, or how to use Dianova..."
+      "placeholder": "Ask about health, diabetes, or how to use Vena..."
     },
     "error": {
       "message": "Sorry, an error occurred while processing your message. Please try again later."
@@ -369,10 +369,10 @@
   "feedback": {
     "badge": "Feedback",
     "title": "Share Your Thoughts",
-    "subtitle": "We truly value your input to continuously improve your experience with Dianova",
+    "subtitle": "We truly value your input to continuously improve your experience with Vena",
     "form": {
       "title": "Send Feedback",
-      "description": "Fill out the form below to share your thoughts about the Dianova app",
+      "description": "Fill out the form below to share your thoughts about the Vena app",
       "fields": {
         "name": {
           "label": "Name",
@@ -402,7 +402,7 @@
         },
         "message": {
           "label": "Message",
-          "placeholder": "Tell us about your experience using Dianova..."
+          "placeholder": "Tell us about your experience using Vena..."
         }
       },
       "submit": "Submit Feedback",
@@ -513,7 +513,7 @@
       "scanResult": "Scan Result",
       "resultAnalysis": "Analysis Result:",
       "colorDistribution": "Color Distribution:",
-      "aiTipsTitle": "Tips from Dianova AI Assistant",
+      "aiTipsTitle": "Tips from Vena AI Assistant",
       "aiNotesTitle": "Notes from AI",
       "notFound": {
         "title": "History Not Found",
@@ -530,7 +530,7 @@
       "colorDistribution": "Color Distribution"
     },
     "aiSection": {
-      "tipsTitle": "Tips from Dianova AI Assistant",
+      "tipsTitle": "Tips from Vena AI Assistant",
       "notesTitle": "Notes from AI",
       "loadingTips": "Generating personalized tips...",
       "loadingNotes": "Analyzing scan results..."
@@ -602,7 +602,7 @@
     "subtitle": "Manage your preferences and account settings",
     "account": {
       "title": "Account Information",
-      "defaultName": "Dianova User",
+      "defaultName": "Vena User",
       "emailNotAvailable": "Email not available",
       "anonymousAccount": "Anonymous Account",
       "anonymousWarning": "You are using an anonymous account. For better data security, consider creating an account with an email and password."
@@ -665,15 +665,15 @@
       "userNotFound": "User not found"
     },
     "appInfo": {
-      "version": "Dianova",
-      "copyright": "© 2025 Dianova. All rights reserved."
+      "version": "Vena",
+      "copyright": "© 2025 Vena. All rights reserved."
     }
   },
   "privacyPolicy": {
     "backButton": "Back",
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: October 1st, 2025",
-    "cardTitle": "Dianova Privacy Policy",
+    "cardTitle": "Vena Privacy Policy",
     "sections": {
       "informationCollection": {
         "title": "1. Information We Collect",
@@ -740,7 +740,7 @@
         "title": "8. Contact",
         "description": "If you have any questions about this privacy policy, please contact us at:",
         "items": [
-          "Email: dianova@gmail.com",
+          "Email: vena@gmail.com",
           "Address: SMA Negeri 1 Matauli Dormitory, Jl. KH. Dewantara, Sibuluan Indah, Pandan District, Central Tapanuli Regency, North Sumatra 22538, Indonesia"
         ]
       }
@@ -749,10 +749,10 @@
   "procedure": {
     "backButton": "Back",
     "title": "User Guide",
-    "subtitle": "How to use Dianova properly",
+    "subtitle": "How to use Vena properly",
     "overview": {
-      "title": "About Dianova",
-      "description": "Dianova is a blood glucose monitoring app that uses smart patch technology. The patch changes color based on glucose levels in sweat, and the app analyzes the color to estimate your glucose level.",
+      "title": "About Vena",
+      "description": "Vena is a blood glucose monitoring app that uses smart patch technology. The patch changes color based on glucose levels in sweat, and the app analyzes the color to estimate your glucose level.",
       "colorIndicators": {
         "normal": "Green = Normal",
         "warning": "Yellow = Warning",
@@ -791,7 +791,7 @@
       "step4": {
         "title": "Scanning with the App",
         "items": [
-          "Open the Dianova app and select \"Scan Patch\"",
+          "Open the Vena app and select \"Scan Patch\"",
           "Ensure there is sufficient lighting",
           "Align the patch within the guide frame",
           "Tap the camera button to capture the image"
@@ -825,7 +825,7 @@
     "warning": {
       "title": "Important Warnings",
       "items": [
-        "Dianova is not a certified medical device",
+        "Vena is not a certified medical device",
         "Results are for reference only, not for medical diagnosis",
         "Always consult your doctor for medical decisions",
         "In emergencies, contact medical services immediately"
@@ -842,15 +842,15 @@
     "backButton": "Back",
     "title": "Terms & Conditions",
     "lastUpdated": "Last updated: October 1st, 2025",
-    "cardTitle": "Dianova Terms & Conditions of Use",
+    "cardTitle": "Vena Terms & Conditions of Use",
     "sections": {
       "acceptance": {
         "title": "1. Acceptance of Terms",
-        "description": "By using the Dianova application, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use this application."
+        "description": "By using the Vena application, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use this application."
       },
       "serviceDescription": {
         "title": "2. Service Description",
-        "description": "Dianova is a blood glucose monitoring application that provides:",
+        "description": "Vena is a blood glucose monitoring application that provides:",
         "items": [
           "Glucose patch color detection using the camera",
           "Glucose level estimation based on color analysis",
@@ -863,7 +863,7 @@
         "title": "3. Medical Limitations",
         "disclaimer": "IMPORTANT – MEDICAL DISCLAIMER:",
         "items": [
-          "Dianova is NOT a certified medical device",
+          "Vena is NOT a certified medical device",
           "Scan results are for reference only and DO NOT replace professional medical examinations",
           "Always consult a doctor for diagnosis and treatment",
           "Do not rely on this application for critical medical decisions",
@@ -908,7 +908,7 @@
       },
       "liabilityLimitation": {
         "title": "8. Limitation of Liability",
-        "description": "Dianova and its developers are not liable for any losses or damages arising from the use of this application, including but not limited to medical decisions made based on app results."
+        "description": "Vena and its developers are not liable for any losses or damages arising from the use of this application, including but not limited to medical decisions made based on app results."
       },
       "serviceChanges": {
         "title": "9. Service Modifications",
@@ -918,14 +918,14 @@
         "title": "10. Contact",
         "description": "For questions regarding these Terms and Conditions:",
         "items": [
-          "Email: dianova@gmail.com",
-          "Support: dianova@gmail.com"
+          "Email: vena@gmail.com",
+          "Support: vena@gmail.com"
         ]
       }
     }
   },
   "register": {
-    "title": "Sign Up for Dianova",
+    "title": "Sign Up for Vena",
     "subtitle": "Create an account to start monitoring your glucose",
     "webViewNotice": "Android WebView mode detected. Google Sign-In will use Chrome Custom Tabs.",
     "form": {
@@ -961,8 +961,8 @@
     "toast": {
       "registerSuccess": {
         "title": "Registration Successful",
-        "description": "Your account has been created. Welcome to Dianova!",
-        "descriptionShort": "Welcome to Dianova!"
+        "description": "Your account has been created. Welcome to Vena!",
+        "descriptionShort": "Welcome to Vena!"
       },
       "registerError": {
         "title": "Registration Failed",
@@ -987,22 +987,22 @@
   },
   "release": {
     "badge": "Smart Patch Technology",
-    "title": "Dianova Android App",
+    "title": "Vena Android App",
     "subtitle": "The official Android app for blood glucose monitoring powered by innovative smart patch technology.",
     "version": "Version 1.0.0",
     "download": {
-      "title": "Download the Dianova App",
-      "description": "Get the Dianova app for your Android device now and enjoy easy and accurate glucose monitoring.",
+      "title": "Download the Vena App",
+      "description": "Get the Vena app for your Android device now and enjoy easy and accurate glucose monitoring.",
       "downloadButton": "Download APK (v1.0.0)",
       "learnMoreButton": "Learn More",
       "fileInfo": "File size: ~9 MB | Compatible with Android 8.0+ (Oreo)"
     },
     "pwa": {
       "title": "Not an Android user? Try installing as a Web App",
-      "description": "Install the Dianova app as a Progressive Web App (PWA) on your device.",
+      "description": "Install the Vena app as a Progressive Web App (PWA) on your device.",
       "ios": {
         "title": "iPhone & iPad (Safari)",
-        "description": "Install the Dianova app on iOS devices using Safari",
+        "description": "Install the Vena app on iOS devices using Safari",
         "step1": {
           "title": "Open the Share Menu",
           "description": "Tap the Share icon at the bottom of Safari"
@@ -1019,10 +1019,10 @@
       },
       "android": {
         "title": "Android & PC (Chrome-Based)",
-        "description": "Install the Dianova app on Android & PC devices using Chrome-based browsers",
+        "description": "Install the Vena app on Android & PC devices using Chrome-based browsers",
         "step1": {
           "title": "Open the App in Chrome",
-          "description": "Visit the Dianova app page"
+          "description": "Visit the Vena app page"
         },
         "step2": {
           "title": "Wait for the Install Prompt",
@@ -1057,7 +1057,7 @@
     "features": {
       "main": {
         "title": "Main Features",
-        "description": "The Dianova app comes with advanced features for effective glucose monitoring.",
+        "description": "The Vena app comes with advanced features for effective glucose monitoring.",
         "items": [
           "Instant scan for glucose detection via patch",
           "High-precision patch color detection",
@@ -1080,14 +1080,14 @@
     },
     "smartPatch": {
       "title": "Smart Patch Technology",
-      "description": "Dianova’s latest innovation — a smart patch for accurate glucose monitoring.",
+      "description": "Vena’s latest innovation — a smart patch for accurate glucose monitoring.",
       "paragraph1": "The Smart Patch Technology is an innovative solution that enables glucose monitoring through sweat. The patch reacts to glucose levels in your sweat by changing color, allowing accurate detection.",
-      "paragraph2": "With the Dianova Android app, you can easily scan the patch using your phone’s camera, and our AI will analyze the result with high precision. The app intelligently manages data and memory usage, ensuring smooth and efficient performance across various Android devices."
+      "paragraph2": "With the Vena Android app, you can easily scan the patch using your phone’s camera, and our AI will analyze the result with high precision. The app intelligently manages data and memory usage, ensuring smooth and efficient performance across various Android devices."
     },
     "aiAssistant": {
       "title": "AI Assistant",
       "description": "Get personalized health insights from an AI that understands your condition.",
-      "paragraph1": "The Dianova app includes an AI Assistant that provides health tips based on your glucose monitoring results. It’s designed to recognize trends and patterns in your data, giving useful insights to help maintain your health.",
+      "paragraph1": "The Vena app includes an AI Assistant that provides health tips based on your glucose monitoring results. It’s designed to recognize trends and patterns in your data, giving useful insights to help maintain your health.",
       "paragraph2": "The AI Assistant can also remind you to perform regular checks and recommend healthy lifestyle habits tailored to your condition."
     }
   },
@@ -1107,7 +1107,7 @@
     }
   },
   "appLayout": {
-    "appName": "Dianova",
+    "appName": "Vena",
     "navigation": {
       "home": "Home",
       "scan": "Scan",
@@ -1124,15 +1124,15 @@
     }
   },
   "appSuggestionPopup": {
-    "title": "Open Dianova",
+    "title": "Open Vena",
     "closeButton": "Close",
     "browserOption": {
       "title": "Continue in Browser",
-      "description": "Open Dianova web version",
+      "description": "Open Vena web version",
       "button": "Continue"
     },
     "appOption": {
-      "title": "Download Dianova App",
+      "title": "Download Vena App",
       "descriptionAndroid": "Best experience on Android",
       "descriptionDesktop": "Best experience on desktop",
       "button": "Download"
@@ -1225,7 +1225,7 @@
     }
   },
   "publicFooter": {
-    "appName": "Dianova",
+    "appName": "Vena",
     "navigation": {
       "home": "Home",
       "release": "Release",
@@ -1234,10 +1234,10 @@
       "procedure": "Usage Procedure",
       "feedback": "Feedback"
     },
-    "copyright": "© 2025 Dianova. All rights reserved."
+    "copyright": "© 2025 Vena. All rights reserved."
   },
   "publicHeader": {
-    "appName": "Dianova",
+    "appName": "Vena",
     "navigation": {
       "home": "Home",
       "release": "Release",
@@ -1250,10 +1250,10 @@
     "toggleMenu": "Toggle menu"
   },
   "pwaInstallPrompt": {
-    "title": "Install Dianova App",
+    "title": "Install Vena App",
     "close": "Close",
     "install": {
-      "title": "Install Dianova on Your iPhone",
+      "title": "Install Vena on Your iPhone",
       "description": "Access the app faster from your home screen",
       "howToTitle": "How to Install:",
       "steps": [
@@ -1267,10 +1267,10 @@
       "fullGuide": "Full Guide"
     },
     "guide": {
-      "title": "How to Install Dianova App on iPhone",
+      "title": "How to Install Vena App on iPhone",
       "step1": {
         "title": "Step 1: Open Share Menu",
-        "description": "When opening the Dianova app in Safari, tap the Share icon located at the bottom of the screen.",
+        "description": "When opening the Vena app in Safari, tap the Share icon located at the bottom of the screen.",
         "iconLabel": "Share Icon"
       },
       "step2": {
@@ -1286,7 +1286,7 @@
       },
       "complete": {
         "title": "Done!",
-        "description": "You can now access the Dianova app directly from your iPhone home screen without having to open the browser first."
+        "description": "You can now access the Vena app directly from your iPhone home screen without having to open the browser first."
       }
     }
   },

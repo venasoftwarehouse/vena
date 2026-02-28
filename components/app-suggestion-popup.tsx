@@ -19,20 +19,20 @@ export function AppSuggestionPopup() {
     // Check if user is on Android
     const userAgent = navigator.userAgent.toLowerCase();
     const isAndroidDevice = userAgent.indexOf("android") > -1;
-    
+
     // Check if user is on desktop (not mobile)
     const isDesktopDevice = !/mobile|android|iphone|ipad|ipod|blackberry|windows phone/i.test(userAgent);
-    
+
     setIsAndroid(isAndroidDevice);
     setIsDesktop(isDesktopDevice);
-    
+
     // Check if user is inside a WebView (Android app)
     // Common WebView indicators:
     // 1. WebView in the user agent
     // 2. wv parameter in the user agent
     // 3. Missing browser features that are present in regular browsers
     const isWebView = (
-      userAgent.includes("wv") || 
+      userAgent.includes("wv") ||
       userAgent.includes("webview") ||
       // Check for Android WebView specific patterns
       (isAndroidDevice && !/chrome|firefox|opera|safari|edge|msie|trident/.test(userAgent)) ||
@@ -45,9 +45,9 @@ export function AppSuggestionPopup() {
         (window as any).WEBVIEW !== undefined
       )
     );
-    
+
     setIsInWebView(isWebView);
-    
+
     // Check if user is in PWA mode
     // PWA indicators:
     // 1. Window is standalone or fullscreen
@@ -64,9 +64,9 @@ export function AppSuggestionPopup() {
       // Check if running in PWA mode
       (window as any).PWA !== undefined
     );
-    
+
     setIsInPWA(isPWA);
-    
+
     // Only show popup if:
     // 1. User is on Android OR desktop
     // 2. User is NOT in WebView (already in the app)
@@ -74,18 +74,18 @@ export function AppSuggestionPopup() {
     // 4. User is on /app page
     // 5. User hasn't closed the popup before
     if ((isAndroidDevice || isDesktopDevice) && !isWebView && !isPWA && window.location.pathname === "/app") {
-      const hasClosedPopup = localStorage.getItem("dianova-popup-closed");
-      
+      const hasClosedPopup = localStorage.getItem("vena-popup-closed");
+
       // For Android, check if app is installed by trying to open the deep link
       if (isAndroidDevice) {
         const checkAppInstalled = () => {
           // Create an invisible iframe to test deep link
           const iframe = document.createElement("iframe");
           iframe.style.display = "none";
-          iframe.src = "dianova://app"; // Deep link URL scheme
-          
+          iframe.src = "vena://app"; // Deep link URL scheme
+
           document.body.appendChild(iframe);
-          
+
           // Set a timeout to check if the app opened
           const timeout = setTimeout(() => {
             // If we're still here, the app didn't open
@@ -93,13 +93,13 @@ export function AppSuggestionPopup() {
               document.body.removeChild(iframe);
             }
             setAppInstalled(false);
-            
+
             // Show popup if app is not installed and user hasn't closed it before
             if (!hasClosedPopup) {
               setIsVisible(true);
             }
           }, 500);
-          
+
           // Listen for the page visibility change
           const handleVisibilityChange = () => {
             if (document.hidden) {
@@ -112,9 +112,9 @@ export function AppSuggestionPopup() {
               setIsVisible(false);
             }
           };
-          
+
           document.addEventListener("visibilitychange", handleVisibilityChange);
-          
+
           return () => {
             clearTimeout(timeout);
             document.removeEventListener("visibilitychange", handleVisibilityChange);
@@ -123,7 +123,7 @@ export function AppSuggestionPopup() {
             }
           };
         };
-        
+
         checkAppInstalled();
       } else if (isDesktopDevice && !hasClosedPopup) {
         // For desktop, just show the popup if user hasn't closed it before
@@ -134,12 +134,12 @@ export function AppSuggestionPopup() {
 
   const handleClose = () => {
     setIsVisible(false);
-    localStorage.setItem("dianova-popup-closed", "true");
+    localStorage.setItem("vena-popup-closed", "true");
   };
 
   const handleContinueInBrowser = () => {
     setIsVisible(false);
-    localStorage.setItem("dianova-popup-closed", "true");
+    localStorage.setItem("vena-popup-closed", "true");
   };
 
   if (!isVisible || (isAndroid && appInstalled) || isInWebView || isInPWA) {
@@ -161,7 +161,7 @@ export function AppSuggestionPopup() {
             <span className="sr-only">{t("appSuggestionPopup.closeButton")}</span>
           </Button>
         </div>
-        
+
         <div className="space-y-4">
           {/* Browser Option */}
           <div className="flex items-center justify-between p-4 border border-border rounded-lg">
@@ -181,7 +181,7 @@ export function AppSuggestionPopup() {
               {t("appSuggestionPopup.browserOption.button")}
             </Button>
           </div>
-          
+
           {/* App Option */}
           <div className="flex items-center justify-between p-4 border border-border rounded-lg">
             <div className="flex items-center space-x-3">
@@ -191,7 +191,7 @@ export function AppSuggestionPopup() {
               <div>
                 <h4 className="font-medium">{t("appSuggestionPopup.appOption.title")}</h4>
                 <p className="text-sm text-muted-foreground">
-                  {isAndroid 
+                  {isAndroid
                     ? t("appSuggestionPopup.appOption.descriptionAndroid")
                     : t("appSuggestionPopup.appOption.descriptionDesktop")
                   }

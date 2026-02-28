@@ -14,29 +14,29 @@ export function PWAInstallPrompt() {
   useEffect(() => {
     // Check if the app is running in standalone mode (already installed)
     setIsStandalone(window.matchMedia("(display-mode: standalone)").matches);
-    
+
     // Check if the device is iOS
     const userAgent = navigator.userAgent.toLowerCase();
     const isIOSDevice = /iphone|ipad|ipod/.test(userAgent);
     setIsIOS(isIOSDevice);
-    
+
     // Check if the browser is Safari
     const isSafari = /safari/.test(userAgent) && !/chrome/.test(userAgent);
-    
+
     // Show prompt if:
     // 1. Device is iOS
     // 2. Browser is Safari
     // 3. App is not in standalone mode
     // 4. User hasn't closed the prompt before
     if (isIOSDevice && isSafari && !isStandalone) {
-      const hasClosedPrompt = localStorage.getItem("dianova-pwa-prompt-closed");
-      
+      const hasClosedPrompt = localStorage.getItem("vena-pwa-prompt-closed");
+
       if (!hasClosedPrompt) {
         // Show prompt after a short delay
         const timer = setTimeout(() => {
           setIsVisible(true);
         }, 3000);
-        
+
         return () => clearTimeout(timer);
       }
     }
@@ -44,13 +44,13 @@ export function PWAInstallPrompt() {
 
   const handleClose = () => {
     setIsVisible(false);
-    localStorage.setItem("dianova-pwa-prompt-closed", "true");
+    localStorage.setItem("vena-pwa-prompt-closed", "true");
   };
 
   const handleInstallInstructions = () => {
     setIsVisible(false);
-    localStorage.setItem("dianova-pwa-prompt-closed", "true");
-    
+    localStorage.setItem("vena-pwa-prompt-closed", "true");
+
     // Scroll to instructions section if it exists
     const instructionsElement = document.getElementById("pwa-install-instructions");
     if (instructionsElement) {
@@ -78,7 +78,7 @@ export function PWAInstallPrompt() {
               <span className="sr-only">{t("pwaInstallPrompt.close")}</span>
             </Button>
           </div>
-          
+
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
@@ -91,7 +91,7 @@ export function PWAInstallPrompt() {
                 </p>
               </div>
             </div>
-            
+
             <div className="bg-muted p-4 rounded-lg">
               <h5 className="font-medium mb-2">{t("pwaInstallPrompt.install.howToTitle")}</h5>
               <ol className="text-sm space-y-1 list-decimal list-inside">
@@ -100,7 +100,7 @@ export function PWAInstallPrompt() {
                 ))}
               </ol>
             </div>
-            
+
             <div className="flex space-x-2">
               <Button onClick={handleClose} variant="outline" className="flex-1">
                 {t("pwaInstallPrompt.buttons.later")}
@@ -113,12 +113,12 @@ export function PWAInstallPrompt() {
           </div>
         </div>
       </div>
-      
+
       {/* Instructions section that can be scrolled to */}
       <div id="pwa-install-instructions" className="hidden">
         <div className="max-w-2xl mx-auto py-12 px-4">
           <h2 className="text-2xl font-bold mb-6">{t("pwaInstallPrompt.guide.title")}</h2>
-          
+
           <div className="space-y-6">
             <div className="bg-card p-6 rounded-lg border">
               <h3 className="text-lg font-semibold mb-3">{t("pwaInstallPrompt.guide.step1.title")}</h3>
@@ -140,7 +140,7 @@ export function PWAInstallPrompt() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-card p-6 rounded-lg border">
               <h3 className="text-lg font-semibold mb-3">{t("pwaInstallPrompt.guide.step2.title")}</h3>
               <p className="text-muted-foreground mb-4">
@@ -162,7 +162,7 @@ export function PWAInstallPrompt() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-card p-6 rounded-lg border">
               <h3 className="text-lg font-semibold mb-3">{t("pwaInstallPrompt.guide.step3.title")}</h3>
               <p className="text-muted-foreground mb-4">
@@ -174,7 +174,7 @@ export function PWAInstallPrompt() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-card p-6 rounded-lg border">
               <h3 className="text-lg font-semibold mb-3">{t("pwaInstallPrompt.guide.complete.title")}</h3>
               <p className="text-muted-foreground">

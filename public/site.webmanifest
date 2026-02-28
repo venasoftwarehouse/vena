@@ -1,6 +1,6 @@
 {
-  "name": "Dianova - Monitor Glukosa Darah",
-  "short_name": "Dianova",
+  "name": "Vena - Monitor Glukosa Darah",
+  "short_name": "Vena",
   "description": "Aplikasi monitoring glukosa darah dengan teknologi patch pintar yang inovatif",
   "start_url": "/app",
   "display": "standalone",
@@ -61,21 +61,35 @@
       "form_factor": "narrow"
     }
   ],
-  "categories": ["health", "fitness", "medical"],
+  "categories": [
+    "health",
+    "fitness",
+    "medical"
+  ],
   "shortcuts": [
     {
       "name": "Scan Glukosa",
       "short_name": "Scan",
       "description": "Scan hasil glukosa darah",
       "url": "/app/scan",
-      "icons": [{ "src": "/icons/scan.svg", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/icons/scan.svg",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "Riwayat",
       "short_name": "Riwayat",
       "description": "Lihat riwayat hasil scan",
       "url": "/app/history",
-      "icons": [{ "src": "/icons/history.svg", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/icons/history.svg",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
   "serviceworker": {

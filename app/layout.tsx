@@ -18,23 +18,23 @@ import { I18nProvider } from "@/lib/i18n-context"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Dianova - Monitor Glukosa Darah dengan Teknologi Patch Pintar",
+  title: "Vena - Monitor Glukosa Darah dengan Teknologi Patch Pintar",
   description: "Aplikasi monitoring glukosa darah dengan teknologi patch pintar yang inovatif. Pantau kadar gula darah Anda dengan mudah dan akurat.",
-  keywords: "glukosa darah, diabetes, monitoring kesehatan, patch pintar, Dianova, kesehatan",
-  authors: [{ name: "Dianova Team" }],
+  keywords: "glukosa darah, diabetes, monitoring kesehatan, patch pintar, Vena, kesehatan",
+  authors: [{ name: "Vena Team" }],
   openGraph: {
-    title: "Dianova - Monitor Glukosa Darah dengan Teknologi Patch Pintar",
+    title: "Vena - Monitor Glukosa Darah dengan Teknologi Patch Pintar",
     description: "Aplikasi monitoring glukosa darah dengan teknologi patch pintar yang inovatif. Pantau kadar gula darah Anda dengan mudah dan akurat.",
-    url: "https://dianova.vercel.app",
-    siteName: "Dianova",
+    url: "https://vena.vercel.app",
+    siteName: "Vena",
     locale: "id_ID",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dianova - Monitor Glukosa Darah dengan Teknologi Patch Pintar",
+    title: "Vena - Monitor Glukosa Darah dengan Teknologi Patch Pintar",
     description: "Aplikasi monitoring glukosa darah dengan teknologi patch pintar yang inovatif. Pantau kadar gula darah Anda dengan mudah dan akurat.",
-    creator: "@dianova",
+    creator: "@vena",
   },
   robots: {
     index: true,
@@ -80,7 +80,7 @@ export default function RootLayout({
             __html: `
               (function() {
                 function getInitialTheme() {
-                  const storedTheme = localStorage.getItem('dianova-theme');
+                  const storedTheme = localStorage.getItem('vena-theme');
                   if (storedTheme) {
                     return storedTheme;
                   }
@@ -102,7 +102,7 @@ export default function RootLayout({
               defaultTheme="light"
               enableSystem
               disableTransitionOnChange
-              storageKey="dianova-theme"
+              storageKey="vena-theme"
             >
               <AppSettingsProvider>
                 <Toaster />

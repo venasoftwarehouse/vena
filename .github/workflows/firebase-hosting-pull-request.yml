@@ -19,6 +19,6 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DIANOVAWEB }}
-          projectId: dianovaweb
+          projectId: venaweb
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks

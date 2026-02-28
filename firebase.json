@@ -1,7 +1,7 @@
 {
   "hosting": {
     "source": ".",
-    "sites:": "dianova",
+    "sites:": "vena-bsd",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -10,7 +10,7 @@
 - `firebase-debug.log` - Log debug Firebase
 
 ### 📁 .firebase/
-- `dianovaweb/` - Konfigurasi hosting Firebase
+- `venaweb/` - Konfigurasi hosting Firebase
   - `functions/` - Firebase Functions
     - `next.config.mjs` - Konfigurasi Next.js untuk Firebase
     - `package.json` - Dependencies Firebase Functions
@@ -48,7 +48,7 @@
 - `build/` - Output build (berisi banyak file build)
 - `src/main/` - Sumber utama aplikasi
   - `AndroidManifest.xml` - Manifest aplikasi
-  - `java/id/riristartup/dianova/` - Kotlin/Java source code
+  - `java/id/riristartup/vena/` - Kotlin/Java source code
     - `MainActivity.kt` - Activity utama
     - `MyFirebaseMessagingService.kt` - Service Firebase Messaging
     - `NotificationWorker.kt` - Worker untuk notifikasi
@@ -230,7 +230,7 @@
 
 #### 📁 public/apk/
 - `.gitkeep` - File keep folder
-- `dianova-v1.0.0.apk` - APK aplikasi
+- `vena-v1.0.0.apk` - APK aplikasi
 - `README.md` - Dokumentasi APK
 
 ### 📁 styles/

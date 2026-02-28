@@ -37,29 +37,29 @@ export function DeepLinkHandler({ children }: DeepLinkHandlerProps) {
     // Check if user is on Android
     const userAgent = navigator.userAgent.toLowerCase();
     const isAndroidDevice = userAgent.indexOf("android") > -1;
-    
+
     if (isAndroidDevice && pathname === "/app") {
       // Try to open the app via deep link
       try {
         // Create an iframe to attempt opening the app
         const iframe = document.createElement("iframe");
         iframe.style.display = "none";
-        iframe.src = "dianova://app"; // Deep link URL scheme
-        
+        iframe.src = "vena://app"; // Deep link URL scheme
+
         document.body.appendChild(iframe);
-        
+
         // Set a timeout to check if the app opened
         const timeout = setTimeout(() => {
           // If we're still here, the app didn't open
           document.body.removeChild(iframe);
-          
+
           // Check if we should show the app suggestion popup
-          const hasClosedPopup = localStorage.getItem("dianova-popup-closed");
+          const hasClosedPopup = localStorage.getItem("vena-popup-closed");
           if (!hasClosedPopup) {
             // The popup will be shown by the AppSuggestionPopup component
           }
         }, 500);
-        
+
         // Listen for the page visibility change
         const handleVisibilityChange = () => {
           if (document.hidden) {
@@ -68,9 +68,9 @@ export function DeepLinkHandler({ children }: DeepLinkHandlerProps) {
             document.body.removeChild(iframe);
           }
         };
-        
+
         document.addEventListener("visibilitychange", handleVisibilityChange);
-        
+
         return () => {
           clearTimeout(timeout);
           document.removeEventListener("visibilitychange", handleVisibilityChange);

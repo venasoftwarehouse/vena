@@ -1,7 +1,7 @@
 {
     "i18n-ally.localesPaths": [
         "messages",
-        "D:/dianova/dictionaries"
+        "dictionaries"
     ],
     "i18n-ally.keystyle": "nested"
 }

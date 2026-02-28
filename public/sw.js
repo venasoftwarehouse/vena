@@ -30,7 +30,7 @@ messaging.onBackgroundMessage((payload) => {
   self.registration.showNotification(notificationTitle, notificationOptions);
 });
 
-const CACHE_NAME = "dianova-v1";
+const CACHE_NAME = "vena-v1";
 const urlsToCache = [
   "/",
   "/app",

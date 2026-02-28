@@ -24,7 +24,7 @@ export function AppSettingsProvider({ children }: { children: React.ReactNode })
 
   // Load settings from localStorage on mount
   useEffect(() => {
-    const savedSettings = localStorage.getItem("dianova-app-settings")
+    const savedSettings = localStorage.getItem("vena-app-settings")
     if (savedSettings) {
       try {
         const parsed = JSON.parse(savedSettings)
@@ -37,7 +37,7 @@ export function AppSettingsProvider({ children }: { children: React.ReactNode })
 
   // Save settings to localStorage whenever they change
   useEffect(() => {
-    localStorage.setItem("dianova-app-settings", JSON.stringify(settings))
+    localStorage.setItem("vena-app-settings", JSON.stringify(settings))
   }, [settings])
 
   const updateSettings = (newSettings: Partial<AppSettings>) => {

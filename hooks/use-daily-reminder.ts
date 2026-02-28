@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react"
 import { useAuth } from "@/contexts/auth-context"
 
-const REMINDER_STORAGE_KEY = "dianova-daily-reminder"
-const REMINDER_TIMESTAMP_KEY = "dianova-daily-reminder-timestamp"
+const REMINDER_STORAGE_KEY = "vena-daily-reminder"
+const REMINDER_TIMESTAMP_KEY = "vena-daily-reminder-timestamp"
 
 export function useDailyReminder() {
   const { user } = useAuth()
@@ -24,7 +24,7 @@ export function useDailyReminder() {
         if (cachedReminder && cachedTimestamp) {
           const reminderDate = new Date(cachedTimestamp)
           const today = new Date()
-          
+
           // Check if the cached reminder is from today
           if (
             reminderDate.getDate() === today.getDate() &&

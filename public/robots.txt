@@ -5,4 +5,4 @@ Allow: /release/
 Allow: /scan/
 
 # Sitemap
-Sitemap: https://dianova.vercel.app/sitemap.xml
+Sitemap: https://vena.vercel.app/sitemap.xml

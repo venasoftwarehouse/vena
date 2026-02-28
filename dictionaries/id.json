@@ -5,7 +5,7 @@
     "hero": {
       "badge": "Teknologi Patch Pintar",
       "title": {
-        "line1": "Dianova",
+        "line1": "Vena",
         "line2": "Monitor Glukosa Darah"
       },
       "description": "Aplikasi monitoring glukosa darah dengan teknologi patch pintar yang inovatif. Pantau kadar gula darah Anda dengan mudah dan akurat.",
@@ -15,7 +15,7 @@
       }
     },
     "features": {
-      "title": "Fitur Unggulan Dianova",
+      "title": "Fitur Unggulan Vena",
       "cards": {
         "monitoring": {
           "title": "Monitoring Real-time",
@@ -88,7 +88,7 @@
       },
       "app": {
         "title": "Aplikasi Website Multi-Platform",
-        "description": "Nikmati Dianova di berbagai perangkat tanpa perlu instalasi",
+        "description": "Nikmati Vena di berbagai perangkat tanpa perlu instalasi",
         "items": {
           "universal": {
             "title": "Akses Universal",
@@ -134,7 +134,7 @@
     "pwa": {
       "badge": "New",
       "title": "Install sebagai Aplikasi",
-      "description": "Nikmati pengalaman menggunakan Dianova sebagai aplikasi di perangkat Anda. Dapatkan akses cepat, notifikasi real-time, dan kemampuan untuk menggunakan aplikasi bahkan tanpa koneksi internet.",
+      "description": "Nikmati pengalaman menggunakan Vena sebagai aplikasi di perangkat Anda. Dapatkan akses cepat, notifikasi real-time, dan kemampuan untuk menggunakan aplikasi bahkan tanpa koneksi internet.",
       "features": {
         "quickAccess": {
           "title": "Akses Cepat",
@@ -150,12 +150,12 @@
         }
       },
       "cta": "Pelajari Cara Install",
-      "appName": "Dianova",
+      "appName": "Vena",
       "appTagline": "Glukosa Monitor"
     },
     "cta": {
       "title": "Mulai Monitoring Kesehatan Anda Hari Ini",
-      "description": "Bergabunglah dengan ribuan pengguna yang telah mempercayai Dianova untuk monitoring glukosa darah mereka.",
+      "description": "Bergabunglah dengan ribuan pengguna yang telah mempercayai Vena untuk monitoring glukosa darah mereka.",
       "buttons": {
         "start": "Mulai Sekarang",
         "download": "Download APK"
@@ -165,7 +165,7 @@
   "appHome": {
     "welcome": {
       "greeting": "Selamat datang",
-      "subtitle": "Pantau kesehatan glukosa Anda dengan mudah menggunakan Dianova"
+      "subtitle": "Pantau kesehatan glukosa Anda dengan mudah menggunakan Vena"
     },
     "quickActions": {
       "scan": {
@@ -186,7 +186,7 @@
       }
     },
     "aiHighlight": {
-      "title": "AI Assistant Dianova",
+      "title": "AI Assistant Vena",
       "description": "Dapatkan saran kesehatan personal dan jawaban atas pertanyaan Anda tentang diabetes dan manajemen glukosa",
       "features": {
         "historyBased": "Saran berdasarkan riwayat scan Anda",
@@ -228,7 +228,7 @@
     }
   },
   "login": {
-    "title": "Masuk ke Dianova",
+    "title": "Masuk ke Vena",
     "subtitle": "Masuk untuk melanjutkan monitoring glukosa Anda",
     "androidWebViewNotice": "Mode Android WebView terdeteksi. Google Sign-In akan menggunakan Credential Manager.",
     "form": {
@@ -276,17 +276,17 @@
   },
   "chatbot": {
     "header": {
-      "title": "AI Assistant Dianova",
+      "title": "AI Assistant Vena",
       "subtitle": "Asisten kesehatan pribadi Anda",
       "status": "Online"
     },
     "welcome": {
-      "greeting": "Halo! Saya adalah asisten kesehatan AI Dianova. Saya siap membantu Anda dengan:",
+      "greeting": "Halo! Saya adalah asisten kesehatan AI Vena. Saya siap membantu Anda dengan:",
       "features": {
         "diabetes": "Informasi tentang diabetes dan manajemen glukosa",
         "lifestyle": "Saran gaya hidup sehat berdasarkan hasil scan Anda",
         "diet": "Tips diet dan olahraga",
-        "usage": "Cara menggunakan aplikasi Dianova",
+        "usage": "Cara menggunakan aplikasi Vena",
         "motivation": "Motivasi untuk menjaga kesehatan"
       },
       "question": "Apa yang ingin Anda tanyakan hari ini?"
@@ -327,14 +327,14 @@
         "Apa saja makanan yang baik untuk diabetes?",
         "Berapa kali sehari sebaiknya cek gula darah?",
         "Tips olahraga untuk penderita diabetes",
-        "Cara menggunakan patch Dianova dengan benar"
+        "Cara menggunakan patch Vena dengan benar"
       ]
     },
     "disclaimer": {
       "message": "AI Assistant ini memberikan informasi umum. Untuk masalah medis serius, konsultasikan dengan dokter."
     },
     "input": {
-      "placeholder": "Tanyakan tentang kesehatan, diabetes, atau cara menggunakan Dianova..."
+      "placeholder": "Tanyakan tentang kesehatan, diabetes, atau cara menggunakan Vena..."
     },
     "error": {
       "message": "Maaf, terjadi kesalahan saat memproses pesan Anda. Silakan coba lagi dalam beberapa saat."
@@ -369,10 +369,10 @@
   "feedback": {
     "badge": "Feedback",
     "title": "Bagikan Pendapat Anda",
-    "subtitle": "Kami sangat menghargai masukan Anda untuk terus meningkatkan pengalaman menggunakan Dianova",
+    "subtitle": "Kami sangat menghargai masukan Anda untuk terus meningkatkan pengalaman menggunakan Vena",
     "form": {
       "title": "Kirim Feedback",
-      "description": "Isi formulir di bawah ini untuk memberikan masukan tentang aplikasi Dianova",
+      "description": "Isi formulir di bawah ini untuk memberikan masukan tentang aplikasi Vena",
       "fields": {
         "name": {
           "label": "Nama",
@@ -402,7 +402,7 @@
         },
         "message": {
           "label": "Pesan",
-          "placeholder": "Ceritakan pengalaman Anda menggunakan Dianova..."
+          "placeholder": "Ceritakan pengalaman Anda menggunakan Vena..."
         }
       },
       "submit": "Kirim Feedback",
@@ -513,7 +513,7 @@
       "scanResult": "Hasil Scan",
       "resultAnalysis": "Hasil Analisis:",
       "colorDistribution": "Distribusi Warna:",
-      "aiTipsTitle": "Tips dari AI Assistant Dianova",
+      "aiTipsTitle": "Tips dari AI Assistant Vena",
       "aiNotesTitle": "Catatan dari AI",
       "notFound": {
         "title": "Riwayat Tidak Ditemukan",
@@ -530,7 +530,7 @@
       "colorDistribution": "Distribusi Warna"
     },
     "aiSection": {
-      "tipsTitle": "Tips dari AI Assistant Dianova",
+      "tipsTitle": "Tips dari AI Assistant Vena",
       "notesTitle": "Catatan dari AI",
       "loadingTips": "Menghasilkan tips personal...",
       "loadingNotes": "Menganalisis hasil scan..."
@@ -602,7 +602,7 @@
     "subtitle": "Kelola preferensi dan pengaturan akun Anda",
     "account": {
       "title": "Informasi Akun",
-      "defaultName": "Pengguna Dianova",
+      "defaultName": "Pengguna Vena",
       "emailNotAvailable": "Email tidak tersedia",
       "anonymousAccount": "Akun Anonim",
       "anonymousWarning": "Anda menggunakan akun anonim. Untuk keamanan data yang lebih baik, pertimbangkan untuk membuat akun dengan email dan password."
@@ -665,15 +665,15 @@
       "userNotFound": "User tidak ditemukan"
     },
     "appInfo": {
-      "version": "Dianova",
-      "copyright": "© 2025 Dianova. Semua hak dilindungi undang-undang."
+      "version": "Vena",
+      "copyright": "© 2025 Vena. Semua hak dilindungi undang-undang."
     }
   },
   "privacyPolicy": {
     "backButton": "Kembali",
     "title": "Kebijakan Privasi",
     "lastUpdated": "Terakhir diperbarui: 01 Oktober 2025",
-    "cardTitle": "Kebijakan Privasi Dianova",
+    "cardTitle": "Kebijakan Privasi Vena",
     "sections": {
       "informationCollection": {
         "title": "1. Informasi yang Kami Kumpulkan",
@@ -740,7 +740,7 @@
         "title": "8. Kontak",
         "description": "Jika ada pertanyaan tentang kebijakan privasi ini, hubungi kami di:",
         "items": [
-          "Email: dianova@gmail.com",
+          "Email: vena@gmail.com",
           "Alamat: Asrama SMA Negeri 1 Matauli Pandan, Jl. KH. Dewantara, Sibuluan Indah, Kec. Pandan, Kabupaten Tapanuli Tengah, Sumatera Utara 22538"
         ]
       }
@@ -749,10 +749,10 @@
   "procedure": {
     "backButton": "Kembali",
     "title": "Panduan Penggunaan",
-    "subtitle": "Cara menggunakan Dianova dengan benar",
+    "subtitle": "Cara menggunakan Vena dengan benar",
     "overview": {
-      "title": "Tentang Dianova",
-      "description": "Dianova adalah aplikasi monitoring glukosa darah menggunakan teknologi patch pintar. Patch akan berubah warna berdasarkan kadar glukosa dalam keringat, dan aplikasi akan menganalisis warna tersebut untuk memberikan estimasi kadar glukosa.",
+      "title": "Tentang Vena",
+      "description": "Vena adalah aplikasi monitoring glukosa darah menggunakan teknologi patch pintar. Patch akan berubah warna berdasarkan kadar glukosa dalam keringat, dan aplikasi akan menganalisis warna tersebut untuk memberikan estimasi kadar glukosa.",
       "colorIndicators": {
         "normal": "Hijau = Normal",
         "warning": "Kuning = Peringatan",
@@ -791,7 +791,7 @@
       "step4": {
         "title": "Scanning dengan Aplikasi",
         "items": [
-          "Buka aplikasi Dianova dan pilih \"Scan Patch\"",
+          "Buka aplikasi Vena dan pilih \"Scan Patch\"",
           "Pastikan pencahayaan cukup terang",
           "Posisikan patch di dalam kotak panduan",
           "Tekan tombol kamera untuk mengambil foto"
@@ -825,7 +825,7 @@
     "warning": {
       "title": "Peringatan Penting",
       "items": [
-        "Dianova bukan alat medis tersertifikasi",
+        "Vena bukan alat medis tersertifikasi",
         "Hasil hanya untuk referensi, bukan diagnosis medis",
         "Selalu konsultasikan dengan dokter untuk keputusan medis",
         "Dalam keadaan darurat, segera hubungi layanan medis"
@@ -842,15 +842,15 @@
     "backButton": "Kembali",
     "title": "Syarat & Ketentuan",
     "lastUpdated": "Terakhir diperbarui: 01 Oktober 2025",
-    "cardTitle": "Syarat & Ketentuan Penggunaan Dianova",
+    "cardTitle": "Syarat & Ketentuan Penggunaan Vena",
     "sections": {
       "acceptance": {
         "title": "1. Penerimaan Syarat",
-        "description": "Dengan menggunakan aplikasi Dianova, Anda menyetujui untuk terikat oleh syarat dan ketentuan ini. Jika Anda tidak setuju, mohon tidak menggunakan aplikasi ini."
+        "description": "Dengan menggunakan aplikasi Vena, Anda menyetujui untuk terikat oleh syarat dan ketentuan ini. Jika Anda tidak setuju, mohon tidak menggunakan aplikasi ini."
       },
       "serviceDescription": {
         "title": "2. Deskripsi Layanan",
-        "description": "Dianova adalah aplikasi monitoring glukosa darah yang menyediakan:",
+        "description": "Vena adalah aplikasi monitoring glukosa darah yang menyediakan:",
         "items": [
           "Deteksi warna patch glukosa menggunakan kamera",
           "Estimasi kadar glukosa berdasarkan analisis warna",
@@ -863,7 +863,7 @@
         "title": "3. Batasan Medis",
         "disclaimer": "PENTING - DISCLAIMER MEDIS:",
         "items": [
-          "Dianova BUKAN alat medis yang tersertifikasi",
+          "Vena BUKAN alat medis yang tersertifikasi",
           "Hasil scan hanya untuk referensi dan TIDAK menggantikan pemeriksaan medis profesional",
           "Selalu konsultasikan dengan dokter untuk diagnosis dan pengobatan",
           "Jangan mengandalkan aplikasi ini untuk keputusan medis penting",
@@ -908,7 +908,7 @@
       },
       "liabilityLimitation": {
         "title": "8. Pembatasan Tanggung Jawab",
-        "description": "Dianova dan pengembangnya tidak bertanggung jawab atas kerugian yang timbul dari penggunaan aplikasi, termasuk namun tidak terbatas pada keputusan medis berdasarkan hasil aplikasi."
+        "description": "Vena dan pengembangnya tidak bertanggung jawab atas kerugian yang timbul dari penggunaan aplikasi, termasuk namun tidak terbatas pada keputusan medis berdasarkan hasil aplikasi."
       },
       "serviceChanges": {
         "title": "9. Perubahan Layanan",
@@ -918,14 +918,14 @@
         "title": "10. Kontak",
         "description": "Untuk pertanyaan tentang syarat dan ketentuan ini:",
         "items": [
-          "Email: dianova@gmail.com",
-          "Support: dianova@gmail.com"
+          "Email: vena@gmail.com",
+          "Support: vena@gmail.com"
         ]
       }
     }
   },
   "register": {
-    "title": "Daftar ke Dianova",
+    "title": "Daftar ke Vena",
     "subtitle": "Buat akun untuk mulai monitoring glukosa Anda",
     "webViewNotice": "Mode Android WebView terdeteksi. Google Sign-In akan menggunakan Chrome Custom Tabs.",
     "form": {
@@ -961,8 +961,8 @@
     "toast": {
       "registerSuccess": {
         "title": "Berhasil mendaftar",
-        "description": "Akun Anda telah dibuat. Selamat datang di Dianova!",
-        "descriptionShort": "Selamat datang di Dianova!"
+        "description": "Akun Anda telah dibuat. Selamat datang di Vena!",
+        "descriptionShort": "Selamat datang di Vena!"
       },
       "registerError": {
         "title": "Gagal mendaftar",
@@ -987,22 +987,22 @@
   },
   "release": {
     "badge": "Teknologi Patch Pintar",
-    "title": "Aplikasi Android Dianova",
+    "title": "Aplikasi Android Vena",
     "subtitle": "Aplikasi Android resmi untuk monitoring glukosa darah dengan teknologi patch pintar yang inovatif.",
     "version": "Versi 1.0.0",
     "download": {
-      "title": "Unduh Aplikasi Dianova",
-      "description": "Dapatkan aplikasi Dianova untuk perangkat Android Anda sekarang juga dan nikmati monitoring glukosa yang mudah dan akurat.",
+      "title": "Unduh Aplikasi Vena",
+      "description": "Dapatkan aplikasi Vena untuk perangkat Android Anda sekarang juga dan nikmati monitoring glukosa yang mudah dan akurat.",
       "downloadButton": "Unduh APK (v1.0.0)",
       "learnMoreButton": "Pelajari Selengkapnya",
       "fileInfo": "Ukuran file: ~9 MB | Kompatibel dengan Android 8.0+ (Oreo)"
     },
     "pwa": {
       "title": "Bukan Pengguna Android? Coba install sebagai Aplikasi Website",
-      "description": "Install aplikasi Dianova sebagai Progressive Web App (PWA) di perangkat Anda.",
+      "description": "Install aplikasi Vena sebagai Progressive Web App (PWA) di perangkat Anda.",
       "ios": {
         "title": "iPhone & iPad (Safari)",
-        "description": "Install aplikasi Dianova di perangkat iOS menggunakan Safari",
+        "description": "Install aplikasi Vena di perangkat iOS menggunakan Safari",
         "step1": {
           "title": "Buka Menu Share",
           "description": "Tekan ikon Share di bagian bawah Safari"
@@ -1019,10 +1019,10 @@
       },
       "android": {
         "title": "Android & PC (Chrome-Based)",
-        "description": "Install aplikasi Dianova di perangkat Android & PC menggunakan Browser berbasis Chrome",
+        "description": "Install aplikasi Vena di perangkat Android & PC menggunakan Browser berbasis Chrome",
         "step1": {
           "title": "Buka Aplikasi di Chrome",
-          "description": "Kunjungi halaman aplikasi Dianova"
+          "description": "Kunjungi halaman aplikasi Vena"
         },
         "step2": {
           "title": "Tunggu Prompt Install",
@@ -1057,7 +1057,7 @@
     "features": {
       "main": {
         "title": "Fitur Utama",
-        "description": "Aplikasi Dianova hadir dengan berbagai fitur unggulan untuk monitoring glukosa yang efektif.",
+        "description": "Aplikasi Vena hadir dengan berbagai fitur unggulan untuk monitoring glukosa yang efektif.",
         "items": [
           "Scan instan untuk deteksi glukosa melalui patch",
           "Deteksi warna patch dengan presisi tinggi",
@@ -1080,14 +1080,14 @@
     },
     "smartPatch": {
       "title": "Teknologi Patch Pintar",
-      "description": "Inovasi terbaru dari Dianova yang menghadirkan teknologi patch pintar untuk monitoring glukosa yang akurat.",
+      "description": "Inovasi terbaru dari Vena yang menghadirkan teknologi patch pintar untuk monitoring glukosa yang akurat.",
       "paragraph1": "Teknologi Patch Pintar adalah solusi inovatif yang memungkinkan monitoring glukosa melalui keringat. Patch ini bekerja dengan mendeteksi perubahan warna yang bereaksi dengan kadar glukosa dalam keringat Anda.",
-      "paragraph2": "Dengan aplikasi Android Dianova, Anda dapat dengan mudah memindai patch menggunakan kamera ponsel, dan AI kami akan menganalisis hasilnya dengan akurasi tinggi. Fitur ini secara cerdas mengelola penggunaan data dan memori, memastikan aplikasi tetap responsif dan efisien di berbagai perangkat Android."
+      "paragraph2": "Dengan aplikasi Android Vena, Anda dapat dengan mudah memindai patch menggunakan kamera ponsel, dan AI kami akan menganalisis hasilnya dengan akurasi tinggi. Fitur ini secara cerdas mengelola penggunaan data dan memori, memastikan aplikasi tetap responsif dan efisien di berbagai perangkat Android."
     },
     "aiAssistant": {
       "title": "AI Assistant",
       "description": "Dapatkan saran kesehatan personal dari AI yang memahami kondisi Anda.",
-      "paragraph1": "Aplikasi Dianova dilengkapi dengan AI Assistant yang dapat memberikan saran kesehatan berdasarkan hasil monitoring glukosa Anda. AI ini dirancang untuk memahami pola dan tren dari data glukosa Anda, memberikan insight yang berguna untuk menjaga kesehatan.",
+      "paragraph1": "Aplikasi Vena dilengkapi dengan AI Assistant yang dapat memberikan saran kesehatan berdasarkan hasil monitoring glukosa Anda. AI ini dirancang untuk memahami pola dan tren dari data glukosa Anda, memberikan insight yang berguna untuk menjaga kesehatan.",
       "paragraph2": "AI Assistant juga dapat mengingatkan Anda untuk melakukan pemeriksaan rutin dan memberikan rekomendasi gaya hidup yang sehat berdasarkan kondisi kesehatan Anda."
     }
   },
@@ -1107,7 +1107,7 @@
     }
   },
   "appLayout": {
-    "appName": "Dianova",
+    "appName": "Vena",
     "navigation": {
       "home": "Beranda",
       "scan": "Scan",
@@ -1124,15 +1124,15 @@
     }
   },
   "appSuggestionPopup": {
-    "title": "Buka Dianova",
+    "title": "Buka Vena",
     "closeButton": "Tutup",
     "browserOption": {
       "title": "Lanjutkan di Browser",
-      "description": "Buka versi web Dianova",
+      "description": "Buka versi web Vena",
       "button": "Lanjutkan"
     },
     "appOption": {
-      "title": "Download Aplikasi Dianova",
+      "title": "Download Aplikasi Vena",
       "descriptionAndroid": "Pengalaman terbaik di Android",
       "descriptionDesktop": "Pengalaman terbaik di desktop",
       "button": "Download"
@@ -1225,7 +1225,7 @@
     }
   },
   "publicFooter": {
-    "appName": "Dianova",
+    "appName": "Vena",
     "navigation": {
       "home": "Beranda",
       "release": "Rilis",
@@ -1234,10 +1234,10 @@
       "procedure": "Prosedur Penggunaan",
       "feedback": "Feedback"
     },
-    "copyright": "© 2025 Dianova. Semua hak dilindungi undang-undang."
+    "copyright": "© 2025 Vena. Semua hak dilindungi undang-undang."
   },
   "publicHeader": {
-    "appName": "Dianova",
+    "appName": "Vena",
     "navigation": {
       "home": "Beranda",
       "release": "Rilis",
@@ -1250,10 +1250,10 @@
     "toggleMenu": "Toggle menu"
   },
   "pwaInstallPrompt": {
-    "title": "Install Aplikasi Dianova",
+    "title": "Install Aplikasi Vena",
     "close": "Tutup",
     "install": {
-      "title": "Install Dianova di iPhone Anda",
+      "title": "Install Vena di iPhone Anda",
       "description": "Akses aplikasi dengan lebih cepat dari layar utama",
       "howToTitle": "Cara Install:",
       "steps": [
@@ -1267,10 +1267,10 @@
       "fullGuide": "Panduan Lengkap"
     },
     "guide": {
-      "title": "Cara Install Aplikasi Dianova di iPhone",
+      "title": "Cara Install Aplikasi Vena di iPhone",
       "step1": {
         "title": "Langkah 1: Buka Menu Share",
-        "description": "Saat membuka aplikasi Dianova di Safari, tekan ikon Share yang terletak di bagian bawah layar.",
+        "description": "Saat membuka aplikasi Vena di Safari, tekan ikon Share yang terletak di bagian bawah layar.",
         "iconLabel": "Ikon Share"
       },
       "step2": {
@@ -1286,7 +1286,7 @@
       },
       "complete": {
         "title": "Selesai!",
-        "description": "Sekarang Anda dapat mengakses aplikasi Dianova langsung dari layar utama iPhone Anda tanpa perlu membuka browser terlebih dahulu."
+        "description": "Sekarang Anda dapat mengakses aplikasi Vena langsung dari layar utama iPhone Anda tanpa perlu membuka browser terlebih dahulu."
       }
     }
   },

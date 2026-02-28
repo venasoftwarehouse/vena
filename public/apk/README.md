@@ -1,6 +1,6 @@
 # APK Directory
 
-Direktori ini digunakan untuk menyimpan file APK aplikasi Android Dianova yang dapat diunduh oleh pengguna.
+Direktori ini digunakan untuk menyimpan file APK aplikasi Android Vena yang dapat diunduh oleh pengguna.
 
 ## Cara Menambahkan APK
 
@@ -12,12 +12,12 @@ Direktori ini digunakan untuk menyimpan file APK aplikasi Android Dianova yang d
 
 2. Salin file APK yang dihasilkan dari `android/app/build/outputs/apk/release/app-release.apk` ke direktori ini:
    ```
-   cp android/app/build/outputs/apk/release/app-release.apk public/apk/dianova-v1.0.0.apk
+   cp android/app/build/outputs/apk/release/app-release.apk public/apk/vena-v1.0.0.apk
    ```
 
 3. Pastikan untuk memberi nama file APK dengan format yang konsisten:
    ```
-   dianova-[versi].apk
+   vena-[versi].apk
    ```
 
 4. Update halaman release (`app/app/release/page.tsx`) untuk menyesuaikan link download jika nama file berubah.
@@ -28,7 +28,7 @@ Direktori ini digunakan untuk menyimpan file APK aplikasi Android Dianova yang d
 public/apk/
 ├── README.md (file ini)
 ├── .gitkeep (untuk memastikan direktori ter-tracking oleh git)
-└── dianova-v1.0.0.apk (file APK)
+└── vena-v1.0.0.apk (file APK)
 ```
 
 ## Catatan

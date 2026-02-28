@@ -6,7 +6,7 @@ I. PENDAHULUAN
 
 A. Latar Belakang Proyek
 ------------------------
-Dianova adalah aplikasi monitoring glukosa darah yang inovatif menggunakan teknologi patch pintar. 
+Vena adalah aplikasi monitoring glukosa darah yang inovatif menggunakan teknologi patch pintar. 
 Aplikasi ini dikembangkan untuk membantu penderita diabetes memantau kadar gula darah mereka 
 secara real-time dengan cara yang mudah dan non-invasif.
 
@@ -32,7 +32,7 @@ II. ARSITEKTUR SISTEM
 
 A. Arsitektur High-Level
 ------------------------
-Aplikasi Dianova menggunakan arsitektur hybrid dengan:
+Aplikasi Vena menggunakan arsitektur hybrid dengan:
 1. Web App sebagai aplikasi utama (Progressive Web App)
 2. Android Native App sebagai wrapper untuk akses hardware
 3. Firebase sebagai backend-as-a-service
@@ -92,8 +92,8 @@ B. FASE 2: SETUP DAN KONFIGURASI AWAL
 
 1. Project Initialization
    ```
-   npx create-next-app@latest dianova
-   cd dianova
+   npx create-next-app@latest vena
+   cd vena
    npm install @radix-ui/react-* tailwindcss lucide-react
    ```
 
@@ -291,7 +291,7 @@ D. FASE 4: DEVELOPMENT - ANDROID NATIVE
    android/
    ├── app/
    │   ├── src/main/
-   │   │   ├── java/id/riristartup/dianova/
+   │   │   ├── java/id/riristartup/vena/
    │   │   │   ├── MainActivity.kt
    │   │   │   ├── WebAppInterface.kt
    │   │   │   ├── PasskeyWebListener.kt
@@ -346,7 +346,7 @@ D. FASE 4: DEVELOPMENT - ANDROID NATIVE
                    }
                    
                    // Handle camera access
-                   if (url?.startsWith("dianova://camera") == true) {
+                   if (url?.startsWith("vena://camera") == true) {
                        openCamera()
                        return true
                    }
@@ -355,7 +355,7 @@ D. FASE 4: DEVELOPMENT - ANDROID NATIVE
                }
            }
            
-           webView.loadUrl("https://dianova.vercel.app/app")
+           webView.loadUrl("https://vena.vercel.app/app")
        }
    }
    ```
@@ -625,7 +625,7 @@ B. Technical Improvements
 VIII. KESIMPULAN
 ================
 
-Aplikasi Dianova merupakan solusi inovatif untuk monitoring glukosa darah yang menggabungkan 
+Aplikasi Vena merupakan solusi inovatif untuk monitoring glukosa darah yang menggabungkan 
 teknologi web dan mobile dengan AI/ML capabilities. Proses development melibatkan:
 
 1. Perencanaan yang matang dengan analisis kebutuhan pengguna
@@ -634,7 +634,7 @@ teknologi web dan mobile dengan AI/ML capabilities. Proses development melibatka
 4. Optimasi performa dan user experience
 5. Deployment yang terstruktur dengan CI/CD
 
-Dengan arsitektur yang scalable dan teknologi yang modern, Dianova siap untuk 
+Dengan arsitektur yang scalable dan teknologi yang modern, Vena siap untuk 
 dikembangkan lebih lanjut dan memberikan dampak positif bagi penderita diabetes 
 di seluruh dunia.
 

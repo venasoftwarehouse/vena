@@ -8,9 +8,9 @@ export default function IconsPage() {
     <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto py-12 px-4">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-foreground mb-4">Ikon Dianova</h1>
+          <h1 className="text-4xl font-bold text-foreground mb-4">Ikon Vena</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Halaman ini menampilkan ikon-ikon yang digunakan untuk aplikasi Dianova.
+            Halaman ini menampilkan ikon-ikon yang digunakan untuk aplikasi Vena.
           </p>
         </div>
 
